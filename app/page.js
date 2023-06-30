@@ -1,12 +1,24 @@
+"use client";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
-
+// import Cursor from "@/components/Cursor";
+import AnimatedCursor from "react-animated-cursor";
 export default function Home() {
   return (
     <>
       <head></head>
       <body>
+        {/* <Cursor /> */}
         {/* <Navbar /> */}
+        <AnimatedCursor
+          innerSize={10}
+          outerSize={20}
+          color="253, 191, 23"
+          outerAlpha={0.3}
+          innerScale={0.8}
+          outerScale={5}
+          clickables={["a", ".link"]}
+        />
 
         <section className=" mt-5 ml-5 mr-5 flex flex-col gap-2 w-full justify-center items-center">
           <h1 className="text-yves-blue font-light text-3xl">

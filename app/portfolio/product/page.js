@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import AnimatedCursor from "react-animated-cursor";
 import { ArrowCircleLeft } from "@mui/icons-material";
 import { ArrowCircleRight } from "@mui/icons-material";
 
@@ -28,6 +29,15 @@ export default function Portofolio() {
     <>
       <head></head>
       <body>
+        <AnimatedCursor
+          innerSize={10}
+          outerSize={20}
+          color="253, 191, 23"
+          outerAlpha={0.3}
+          innerScale={0.8}
+          outerScale={5}
+          clickables={["a", ".link"]}
+        />
         <Navbar />
         <header className=" mt-5 mb-5 flex items-center gap-5 justify-center flex-col">
           <Link href="/portfolio">

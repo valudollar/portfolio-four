@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Open_Sans } from "next/font/google";
 import Navbar from "@/components/Navbar";
 
+import React, { useState, useEffect } from "react";
+import { motion, useMotionValue, useSpring } from "framer-motion";
+
 const inter = Inter({ subsets: ["latin"] });
 
 // export const metadata = {

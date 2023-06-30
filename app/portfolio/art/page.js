@@ -1,13 +1,24 @@
 "use client";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import AnimatedCursor from "react-animated-cursor";
 export default function Portofolio() {
   function flip() {}
   return (
     <>
       <head></head>
       <body>
+        <AnimatedCursor
+          innerSize={10}
+          outerSize={20}
+          color="253, 191, 23"
+          outerAlpha={0.3}
+          innerScale={0.8}
+          outerScale={5}
+          clickables={["a", ".link"]}
+        />
         <Navbar />
+
         <header className=" mt-10 mb-10 flex justify-center text-yves-blue text-4xl">
           <Link href="/portfolio">
             <h1> PORTFOLIO</h1>
