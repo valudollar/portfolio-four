@@ -52,7 +52,7 @@
 
 * {
   box-sizing: border-box;
-  /* cursor: none; */
+  cursor: none !important;
 }
 
 html,

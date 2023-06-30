@@ -14,11 +14,11 @@ export default function Portofolio() {
       <body>
         <AnimatedCursor
           innerSize={10}
-          outerSize={20}
+          outerSize={10}
           color="253, 191, 23"
           outerAlpha={0.3}
           innerScale={0.8}
-          outerScale={5}
+          outerScale={2}
           clickables={["a", ".link"]}
         />
         <Navbar />

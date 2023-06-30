@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import HomeIcon from "@mui/icons-material/Home";
+import { motion } from "framer-motion";
 export default function Navbar() {
   return (
     <>
@@ -20,17 +21,17 @@ export default function Navbar() {
             <button className=" text-base">PORTFOLIO</button>
           </Link> */}
 
-          <Link href="/portfolio">
+          <Link href="/portfolio/digital">
             <button className=" text-base hover:underline decoration-my-yellow decoration-2">
               WEB/APPS
             </button>
           </Link>
-          <Link href="/portfolio">
+          <Link href="/portfolio/product">
             <button className=" text-base hover:underline decoration-my-yellow decoration-2">
               PRODUCT
             </button>
           </Link>
-          <Link href="/portfolio">
+          <Link href="/portfolio/art">
             <button className=" text-base hover:underline decoration-my-yellow decoration-2">
               ART
             </button>
