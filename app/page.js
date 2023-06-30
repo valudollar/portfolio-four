@@ -3,6 +3,10 @@ import Link from "next/link";
 import Image from "next/image";
 import testcircle from "images/testcircle.svg";
 import backtest from "images/backtest.png";
+import github from "images/github-mark.svg";
+import telegram from "images/Telegram_logo.svg";
+import instagram from "images/Instagram.svg";
+import gmail from "images/gmail.svg";
 import eye from "images/eye.png";
 
 import Navbar from "@/components/Navbar";
@@ -182,7 +186,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex flex-wrap mt-10 gap-5 flex-row justify-center">
+        <section className="flex mb-10 flex-wrap mt-10 gap-5 flex-row justify-center">
           <div className=" w-[20rem] h-[28rem] cursor-pointer group perspective ">
             <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full delay-500 ease-in-out duration-[2000ms]">
               <div className=" flex-col items-center justify-center flex shadow-lg absolute w-full h-full backface-hidden bg-slate-200 text-black rounded-2xl">
@@ -332,7 +336,21 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="w-full h-10"></section>
+        <footer className="flex justify-end  gap-2 flex-row m-5">
+          <p className=" text-yves-blue text-2xl">reach out to me</p>
+          <Link href="https://github.com/valudollar/portfolio-four">
+            <Image src={github} className="w-8 h-8"></Image>
+          </Link>
+          <Link href="mailto:valerie.luxuanhui@gmail.com">
+            <Image src={gmail} className="w-8 h-8"></Image>
+          </Link>
+          <Link href="https://t.me/grapejiz">
+            <Image src={telegram} className="w-8 h-8"></Image>
+          </Link>
+          <Link href="https://instagram.com/grapefoot.studio">
+            <Image src={instagram} className="w-8 h-8"></Image>
+          </Link>
+        </footer>
       </body>
     </>
   );
