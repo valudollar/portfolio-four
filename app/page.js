@@ -1,8 +1,17 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
+import testcircle from "images/testcircle.svg";
+import backtest from "images/backtest.png";
+
 import Navbar from "@/components/Navbar";
 // import Cursor from "@/components/Cursor";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
+import dynamic from "next/dynamic";
+
+const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
+  ssr: false,
+});
 export default function Home() {
   return (
     <>
@@ -60,7 +69,15 @@ export default function Home() {
                     <p className="text-white ">FIGMA</p>
                   </div>
                   <Link href="/portfolio/digital">
-                    <div className="bg-backtest bg-no-repeat bg-center bg-cover w-[10rem] h-[10rem] hover:scale-125"></div>
+                    <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
+                      <Image
+                        src={backtest}
+                        className=" mr-2  hover:scale-125"
+                      ></Image>
+                    </div>
+                    {/* <div className="bg-backtest bg-no-repeat bg-center flex justify-center items-center bg-cover w-[10rem] h-[10rem] hover:scale-125">
+                      <Image src={testcircle}></Image>
+                    </div> */}
                   </Link>
                   <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 gap-2">
                     <p className="text-white ">AGILE</p>

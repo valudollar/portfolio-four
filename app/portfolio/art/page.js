@@ -1,7 +1,11 @@
 "use client";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
-import AnimatedCursor from "react-animated-cursor";
+import dynamic from "next/dynamic";
+
+const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
+  ssr: false,
+});
 export default function Portofolio() {
   function flip() {}
   return (

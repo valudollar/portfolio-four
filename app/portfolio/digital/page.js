@@ -1,10 +1,14 @@
 "use client";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
-import AnimatedCursor from "react-animated-cursor";
-
+import dynamic from "next/dynamic";
 import { ArrowCircleLeft } from "@mui/icons-material";
 import { ArrowCircleRight } from "@mui/icons-material";
+
+const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
+  ssr: false,
+});
+
 export default function Portofolio() {
   function flip() {}
   function toggleLeft1() {
