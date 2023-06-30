@@ -58,6 +58,7 @@ module.exports = {
         aiapp3: "url('../images/aiapp3.png')",
         backtest: "url('../images/backtest.png')",
         testcircle: "url('../images/testcircleyellow.svg')",
+        eye: "url('../images/eye.png')",
 
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

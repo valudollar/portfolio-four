@@ -44,11 +44,6 @@ export default function Portofolio() {
         />
         <Navbar />
         <header className=" mt-5 mb-5 flex items-center gap-5 justify-center flex-col">
-          <Link href="/portfolio">
-            <h1 className=" text-yves-blue text-4xl hover:underline">
-              PORTFOLIO
-            </h1>
-          </Link>
           <p className="font-light text-yves-blue">
             click on the cards below to view by the type of project/work{" "}
           </p>
@@ -57,22 +52,20 @@ export default function Portofolio() {
           <div className="flex flex-row gap-4">
             <Link href="/portfolio/digital">
               <div className="flex flex-col gap-3 items-center  ">
-                <p className="text-yves-blue">WEB/APPS</p>
                 <div className=" items-center flex-col justify-center shadow-md rounded-md flex w-[10rem] h-[15rem] bg-slate-200 hover:scale-110">
                   <div className="w-[9rem] h-[12rem] rounded-md bg-yves-blue bg-cover bg-center"></div>
                   <div className=" w-full h-[1rem] mt-3 flex justify-center items-center">
-                    <h1>THE MAGICIAN</h1>
+                    <h1>WEB/APPS</h1>
                   </div>
                 </div>
               </div>
             </Link>
             <Link href="/portfolio/product">
               <div className="flex flex-col gap-3  items-center  ">
-                <p className="text-yves-blue">PRODUCT DESIGN</p>
                 <div className="items-center flex-col justify-center shadow-md rounded-md flex w-[10rem] h-[15rem] bg-slate-200 hover:scale-110">
                   <div className="w-[9rem] h-[12rem] rounded-md bg-magician bg-cover bg-center"></div>
                   <div className=" w-full h-[1rem] mt-3 flex justify-center items-center">
-                    <h1>THE MAGICIAN</h1>
+                    <h1>PRODUCT DESIGN</h1>
                   </div>
                 </div>
               </div>
@@ -80,11 +73,10 @@ export default function Portofolio() {
 
             <Link href="/portfolio/art">
               <div className="flex flex-col gap-3  items-center  ">
-                <p className="text-yves-blue">ART </p>
                 <div className="items-center flex-col justify-center shadow-md rounded-md flex w-[10rem] h-[15rem] bg-slate-200 hover:scale-110">
                   <div className="w-[9rem] h-[12rem] rounded-md bg-yves-blue bg-cover bg-center"></div>
                   <div className=" w-full h-[1rem] mt-3 flex justify-center items-center">
-                    <h1>THE MAGICIAN</h1>
+                    <h1>ART</h1>
                   </div>
                 </div>
               </div>

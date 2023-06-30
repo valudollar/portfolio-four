@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import testcircle from "images/testcircle.svg";
 import backtest from "images/backtest.png";
+import eye from "images/eye.png";
 
 import Navbar from "@/components/Navbar";
 // import Cursor from "@/components/Cursor";
@@ -71,13 +72,12 @@ export default function Home() {
                   <Link href="/portfolio/digital">
                     <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
                       <Image
-                        src={backtest}
+                        src={eye}
                         className=" mr-2  hover:scale-125"
+                        width={50}
+                        height={50}
                       ></Image>
                     </div>
-                    {/* <div className="bg-backtest bg-no-repeat bg-center flex justify-center items-center bg-cover w-[10rem] h-[10rem] hover:scale-125">
-                      <Image src={testcircle}></Image>
-                    </div> */}
                   </Link>
                   <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 gap-2">
                     <p className="text-white ">AGILE</p>
@@ -112,6 +112,16 @@ export default function Home() {
                     <b>Singapore University of Technology and Design</b>. i love
                     cats, Yves Klein blue (#002FA7) and doing martial arts!
                   </p>
+                  <Link href="/about">
+                    <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
+                      <Image
+                        src={eye}
+                        className=" mr-2  hover:scale-125"
+                        width={50}
+                        height={50}
+                      ></Image>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -141,7 +151,14 @@ export default function Home() {
                     <p className="text-white ">SKETCHUP</p>
                   </div>
                   <Link href="/portfolio/product">
-                    <div className="bg-backtest bg-no-repeat bg-center bg-cover  w-[10rem] h-[10rem] hover:scale-125"></div>
+                    <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
+                      <Image
+                        src={eye}
+                        className=" mr-2  hover:scale-125"
+                        width={50}
+                        height={50}
+                      ></Image>
+                    </div>
                   </Link>
 
                   <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 gap-5">
@@ -185,7 +202,14 @@ export default function Home() {
                   </div>
 
                   <Link href="/about">
-                    <div className="bg-backtest bg-no-repeat bg-center bg-cover  w-[10rem] h-[10rem] hover:scale-125"></div>
+                    <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
+                      <Image
+                        src={eye}
+                        className=" mr-2  hover:scale-125"
+                        width={50}
+                        height={50}
+                      ></Image>
+                    </div>
                   </Link>
                   <div className="flex flex-row  font-medium justify-center ml-2 mr-2 mt-2 gap-2">
                     <p className="text-my-yellow font-medium">DESIGN AND AI</p>
@@ -229,7 +253,14 @@ export default function Home() {
                     </Link>
                   </div>
                   <Link href="/portfolio/art">
-                    <div className="bg-backtest bg-no-repeat bg-center bg-cover  w-[10rem] h-[10rem] hover:scale-125"></div>
+                    <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
+                      <Image
+                        src={eye}
+                        className=" mr-2  hover:scale-125"
+                        width={50}
+                        height={50}
+                      ></Image>
+                    </div>
                   </Link>
 
                   <div className="flex flex-row  font-medium justify-center ml-2 mr-2 mt-2 gap-2">
@@ -275,7 +306,14 @@ export default function Home() {
                   </div>
 
                   <Link href="/about">
-                    <div className="bg-backtest bg-no-repeat bg-center bg-cover  w-[10rem] h-[10rem] hover:scale-125"></div>
+                    <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
+                      <Image
+                        src={eye}
+                        className=" mr-2  hover:scale-125"
+                        width={50}
+                        height={50}
+                      ></Image>
+                    </div>
                   </Link>
                   <div className=" flex flex-row font-medium justify-center ml-2 mr-2 mt-2 gap-2">
                     <p className="text-my-yellow ">INTERNSHIPS</p>
