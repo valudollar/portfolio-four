@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
-import { ArrowCircleLeft } from "@mui/icons-material";
-import { ArrowCircleRight } from "@mui/icons-material";
+import { ArrowBackIos } from "@mui/icons-material";
+import { ArrowForwardIos } from "@mui/icons-material";
 import dynamic from "next/dynamic";
+import Footer from "@/components/Footer";
 
 const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
   ssr: false,
@@ -62,7 +63,12 @@ export default function Portofolio() {
           clickables={["a", ".link"]}
         />
         <Navbar />
-        <header className=" mt-5 mb-5 flex items-center gap-5 justify-center flex-col">
+        <header className="mt-5 mb-5 flex items-center justify-center">
+          <h1 className="text-yves-blue font-light text-3xl">
+            DESIGN PROJECTS
+          </h1>
+        </header>
+        {/* <header className=" mt-5 mb-5 flex items-center gap-5 justify-center flex-col">
           <p className="font-light text-yves-blue">
             click on the cards below to view by the type of project/work{" "}
           </p>
@@ -105,11 +111,11 @@ export default function Portofolio() {
               </div>
             </Link>
           </div>
-        </section>
-        <section className="flex justify-center items-center gap-10 mt-20 flex-wrap mb-10 flex-row">
+        </section> */}
+        <section className="flex justify-center items-center gap-10 mt-10 flex-wrap mb-10 flex-row">
           <div className="flex justify-center items-center flex-row w-[50rem]">
             <button>
-              <ArrowCircleLeft
+              <ArrowBackIos
                 className="bg=yves-blue"
                 fontSize="large"
                 onClick={toggleLeft1}
@@ -138,7 +144,7 @@ export default function Portofolio() {
               </div>
             </div>
             <button>
-              <ArrowCircleRight
+              <ArrowForwardIos
                 className="bg=yves-blue"
                 fontSize="large"
                 onClick={toggleRight1}
@@ -167,7 +173,7 @@ export default function Portofolio() {
               and oversized handcarry baggages
             </p>
             <Link href="https://dai.sutd.edu.sg/dai-projects/cabin-baggage-detector/">
-              <button className="text-white bg-yves-blue p-2 text-sm  rounded">
+              <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
                 See Video
               </button>
             </Link>
@@ -195,7 +201,7 @@ export default function Portofolio() {
           </div>
           <div className="flex justify-center items-center flex-row w-[50rem]">
             <button>
-              <ArrowCircleLeft
+              <ArrowBackIos
                 className="bg=yves-blue"
                 fontSize="large"
                 onClick={toggleLeft2}
@@ -213,7 +219,7 @@ export default function Portofolio() {
               </div>
             </div>
             <button>
-              <ArrowCircleRight
+              <ArrowForwardIos
                 className="bg=yves-blue"
                 fontSize="large"
                 onClick={toggleRight2}
@@ -225,7 +231,7 @@ export default function Portofolio() {
         <section className="flex justify-center items-center gap-10 mt-20 flex-wrap mb-10 flex-row">
           <div className="flex justify-center items-center flex-row w-[50rem]">
             <button>
-              <ArrowCircleLeft
+              <ArrowBackIos
                 className="bg=yves-blue"
                 fontSize="large"
                 onClick={toggleLeft3}
@@ -246,7 +252,7 @@ export default function Portofolio() {
               </div>
             </div>
             <button>
-              <ArrowCircleRight
+              <ArrowForwardIos
                 className="bg=yves-blue"
                 fontSize="large"
                 onClick={toggleRight3}
@@ -274,7 +280,7 @@ export default function Portofolio() {
               traditional, kueh lapis sagu
             </p>
             <Link href="https://www.instagram.com/grapefoot.studio/">
-              <button className="text-white bg-yves-blue p-2 text-sm  rounded">
+              <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
                 Visit Grapefoot Studio
               </button>
             </Link>
@@ -303,14 +309,14 @@ export default function Portofolio() {
               CannonKeys, Daily Clack and Desk Hero.
             </p>
             <Link href="https://www.instagram.com/valubahloo/">
-              <button className="text-white bg-yves-blue p-2 text-sm  rounded">
+              <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
                 Visit valubahloo
               </button>
             </Link>
           </div>
           <div className="flex justify-center items-center flex-row w-[50rem]">
             <button>
-              <ArrowCircleLeft
+              <ArrowBackIos
                 className="bg=yves-blue"
                 fontSize="large"
                 onClick={toggleLeft4}
@@ -329,7 +335,7 @@ export default function Portofolio() {
               </div>
             </div>
             <button>
-              <ArrowCircleRight
+              <ArrowForwardIos
                 className="bg=yves-blue"
                 fontSize="large"
                 onClick={toggleRight4}
@@ -340,7 +346,7 @@ export default function Portofolio() {
         <section className="flex justify-center items-center gap-10 mt-20 flex-wrap mb-10 flex-row">
           <div className="flex justify-center items-center flex-row w-[50rem]">
             <button>
-              <ArrowCircleLeft
+              <ArrowBackIos
                 className="bg=yves-blue"
                 fontSize="large"
                 onClick={toggleLeft5}
@@ -358,7 +364,7 @@ export default function Portofolio() {
               </div>
             </div>
             <button>
-              <ArrowCircleRight
+              <ArrowForwardIos
                 className="bg=yves-blue"
                 fontSize="large"
                 onClick={toggleRight5}
@@ -386,7 +392,7 @@ export default function Portofolio() {
               traditional, kueh lapis sagu
             </p>
             <Link href="https://www.instagram.com/grapefoot.studio/">
-              <button className="text-white bg-yves-blue p-2 text-sm  rounded">
+              <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
                 Visit valubahloo
               </button>
             </Link>
@@ -415,14 +421,14 @@ export default function Portofolio() {
               CannonKeys, Daily Clack and Desk Hero.
             </p>
             <Link href="https://www.instagram.com/valubahloo/">
-              <button className="text-white bg-yves-blue p-2 text-sm  rounded">
+              <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
                 Visit valubahloo
               </button>
             </Link>
           </div>
           <div className="flex justify-center items-center flex-row w-[50rem]">
             <button>
-              <ArrowCircleLeft
+              <ArrowBackIos
                 className="bg=yves-blue"
                 fontSize="large"
                 onClick={toggleLeft6}
@@ -444,7 +450,7 @@ export default function Portofolio() {
               </div>
             </div>
             <button>
-              <ArrowCircleRight
+              <ArrowForwardIos
                 className="bg=yves-blue"
                 fontSize="large"
                 onClick={toggleRight6}
@@ -452,6 +458,7 @@ export default function Portofolio() {
             </button>
           </div>
         </section>
+        <Footer />
       </body>
     </>
   );

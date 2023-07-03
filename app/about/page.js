@@ -2,6 +2,7 @@
 import Navbar from "@/components/Navbar";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
   ssr: false,
 });
@@ -19,8 +20,10 @@ export default function About() {
           clickables={["a", ".link"]}
         />
         <Navbar />
-        <header className=" mt-10 mb-10 flex justify-center text-yves-blue text-4xl">
-          <h1> ABOUT</h1>
+        {/* <header className=" mt-5 mb-5 flex items-center gap-5 justify-center flex-col">
+          <p className="font-light text-yves-blue">
+            click on the cards below to view by the type of project/work{" "}
+          </p>
         </header>
         <section className=" mb-10 flex justify-center">
           <div className="flex flex-row gap-4">
@@ -56,7 +59,8 @@ export default function About() {
               </div>
             </Link>
           </div>
-        </section>
+        </section> */}
+        <Footer />
       </body>
     </>
   );

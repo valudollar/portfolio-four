@@ -23,19 +23,19 @@ export default function Navbar() {
 
           <Link href="/portfolio/digital">
             <button className=" text-base hover:underline decoration-my-yellow decoration-2">
-              WEB/APPS
+              WEB/APP
             </button>
           </Link>
           <Link href="/portfolio/product">
             <button className=" text-base hover:underline decoration-my-yellow decoration-2">
-              PRODUCT
+              DESIGN
             </button>
           </Link>
-          <Link href="/portfolio/art">
+          {/* <Link href="/portfolio/art">
             <button className=" text-base hover:underline decoration-my-yellow decoration-2">
               ART
             </button>
-          </Link>
+          </Link> */}
         </div>
       </nav>
     </>
