@@ -55,7 +55,9 @@ export default function Portofolio() {
                 <div className=" items-center flex-col justify-center shadow-md rounded-md flex w-[10rem] h-[15rem] bg-slate-200 hover:scale-110">
                   <div className="w-[9rem] h-[12rem] rounded-md bg-magician bg-cover bg-center"></div>
                   <div className=" w-full h-[1rem] mt-3 flex justify-center items-center">
-                    <h1>WEB/APPS</h1>
+                    <h1 className="text-sm font-medium text-yves-blue">
+                      WEB/APPS
+                    </h1>
                   </div>
                 </div>
               </div>
@@ -65,7 +67,9 @@ export default function Portofolio() {
                 <div className="items-center flex-col justify-center shadow-md rounded-md flex w-[10rem] h-[15rem] bg-slate-200 hover:scale-110">
                   <div className="w-[9rem] h-[12rem] rounded-md bg-yves-blue bg-cover bg-center"></div>
                   <div className=" w-full h-[1rem] mt-3 flex justify-center items-center">
-                    <h1>PRODUCT DESIGN</h1>
+                    <h1 className="text-sm font-medium text-yves-blue">
+                      PRODUCT DESIGN
+                    </h1>
                   </div>
                 </div>
               </div>
@@ -76,7 +80,7 @@ export default function Portofolio() {
                 <div className="items-center flex-col justify-center shadow-md rounded-md flex w-[10rem] h-[15rem] bg-slate-200 hover:scale-110">
                   <div className="w-[9rem] h-[12rem] rounded-md bg-yves-blue bg-cover bg-center"></div>
                   <div className=" w-full h-[1rem] mt-3 flex justify-center items-center">
-                    <h1>ART</h1>
+                    <h1 className="text-sm font-medium text-yves-blue">ART</h1>
                   </div>
                 </div>
               </div>
@@ -133,7 +137,7 @@ export default function Portofolio() {
                 Bootstrap, Material UI
               </p>
               <p>
-                <b>Test Driven Development</b>: Scenario and Feature Writing
+                <b>Test Driven Development</b>: Scenario and Feature Writing,
                 Selenium & Cucumber
               </p>
               <p>
@@ -229,14 +233,13 @@ export default function Portofolio() {
                 id="row3"
               >
                 <div className="min-w-[20rem] h-[20rem] bg-weightlift bg-cover bg-no-repeat bg-center "></div>
-                <div className="min-w-[20rem] h-[20rem] bg-hci3 bg-contain bg-no-repeat bg-center"></div>
-                <div className="min-w-[20rem] h-[20rem] bg-hci1 bg-contain bg-no-repeat bg-center"></div>
-                <div className="min-w-[20rem] h-[20rem] bg-hci2 bg-contain bg-no-repeat bg-center"></div>
-
+                <div className="min-w-[10rem] h-[20rem] bg-hci3 bg-contain bg-no-repeat bg-center"></div>
+                <div className="min-w-[10rem] h-[20rem] bg-hci2 bg-contain bg-no-repeat bg-center"></div>{" "}
+                <div className="min-w-[10rem] h-[20rem] bg-hci1 bg-contain bg-no-repeat bg-center"></div>
                 {/* <div className="min-w-[20rem] h-[20rem] bg-hci4 bg-contain bg-no-repeat bg-center"></div> */}
                 {/* <div className="min-w-[20rem] h-[20rem] bg-hci6 bg-contain bg-no-repeat bg-center"></div> */}
-                <div className="min-w-[20rem] h-[20rem] bg-hci7 bg-contain bg-no-repeat bg-center"></div>
-                <div className="min-w-[20rem] h-[20rem] bg-hci5 bg-contain bg-no-repeat bg-center"></div>
+                <div className="min-w-[10rem] h-[20rem] bg-hci7 bg-contain bg-no-repeat bg-center"></div>
+                <div className="min-w-[10rem] h-[20rem] bg-hci5 bg-contain bg-no-repeat bg-center"></div>
               </div>
             </div>
             <button>
@@ -251,7 +254,7 @@ export default function Portofolio() {
             <h1 className="font-bold text-xl text-yves-blue text-center">
               Deadlift Form Checker and Fitness Journal
             </h1>
-            <h1 className="font-light text-sm"> Mentored by Google & SUTD</h1>
+            <h1 className="font-light"> Mentored by Google & SUTD</h1>
             <p>
               <u>My Contributions</u>
             </p>

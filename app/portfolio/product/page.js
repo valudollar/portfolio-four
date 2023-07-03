@@ -29,6 +29,25 @@ export default function Portofolio() {
   function toggleRight3() {
     document.getElementById("row3").scrollLeft += 200;
   }
+  function toggleLeft4() {
+    document.getElementById("row4").scrollLeft -= 200;
+  }
+  function toggleRight4() {
+    document.getElementById("row4").scrollLeft += 200;
+  }
+
+  function toggleLeft5() {
+    document.getElementById("row5").scrollLeft -= 200;
+  }
+  function toggleRight5() {
+    document.getElementById("row5").scrollLeft += 200;
+  }
+  function toggleLeft6() {
+    document.getElementById("row6").scrollLeft -= 200;
+  }
+  function toggleRight6() {
+    document.getElementById("row6").scrollLeft += 200;
+  }
   return (
     <>
       <head></head>
@@ -55,7 +74,9 @@ export default function Portofolio() {
                 <div className=" items-center flex-col justify-center shadow-md rounded-md flex w-[10rem] h-[15rem] bg-slate-200 hover:scale-110">
                   <div className="w-[9rem] h-[12rem] rounded-md bg-yves-blue bg-cover bg-center"></div>
                   <div className=" w-full h-[1rem] mt-3 flex justify-center items-center">
-                    <h1>WEB/APPS</h1>
+                    <h1 className="text-sm font-medium text-yves-blue">
+                      WEB/APPS
+                    </h1>
                   </div>
                 </div>
               </div>
@@ -65,7 +86,9 @@ export default function Portofolio() {
                 <div className="items-center flex-col justify-center shadow-md rounded-md flex w-[10rem] h-[15rem] bg-slate-200 hover:scale-110">
                   <div className="w-[9rem] h-[12rem] rounded-md bg-magician bg-cover bg-center"></div>
                   <div className=" w-full h-[1rem] mt-3 flex justify-center items-center">
-                    <h1>PRODUCT DESIGN</h1>
+                    <h1 className="text-sm font-medium text-yves-blue">
+                      PRODUCT DESIGN
+                    </h1>
                   </div>
                 </div>
               </div>
@@ -76,7 +99,7 @@ export default function Portofolio() {
                 <div className="items-center flex-col justify-center shadow-md rounded-md flex w-[10rem] h-[15rem] bg-slate-200 hover:scale-110">
                   <div className="w-[9rem] h-[12rem] rounded-md bg-yves-blue bg-cover bg-center"></div>
                   <div className=" w-full h-[1rem] mt-3 flex justify-center items-center">
-                    <h1>ART</h1>
+                    <h1 className="text-sm font-medium text-yves-blue">ART</h1>
                   </div>
                 </div>
               </div>
@@ -98,11 +121,11 @@ export default function Portofolio() {
                 className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap gap-5 "
                 id="row1"
               >
-                {" "}
-                <div className="min-w-[27rem] h-[20rem] bg-pds11 bg-cover bg-no-repeat bg-center"></div>
                 <div className="min-w-[32rem] h-[20rem] bg-pds10 bg-contain bg-no-repeat bg-center"></div>
                 <div className="min-w-[14rem] h-[20rem] bg-pds13 bg-cover bg-no-repeat bg-left"></div>
+                <div className="min-w-[20rem] h-[20rem] bg-dnatapres bg-cover bg-no-repeat bg-center"></div>
                 <div className="min-w-[17rem] h-[20rem] bg-pds12 bg-cover bg-no-repeat bg-center"></div>
+                <div className="min-w-[27rem] h-[20rem] bg-pds11 bg-cover bg-no-repeat bg-center"></div>
                 <div className="min-w-[40rem] h-[20rem] bg-pds8 bg-contain bg-no-repeat bg-center"></div>
                 <div className="min-w-[40rem] h-[20rem] bg-pds6 bg-contain bg-no-repeat bg-center"></div>
                 <div className="min-w-[30rem] h-[20rem] bg-pds7 bg-contain bg-no-repeat bg-center"></div>
@@ -165,8 +188,7 @@ export default function Portofolio() {
               </p>
             </div>
             <p className="font-light text-sm text-center">
-              Module: AI Applications in Design
-              <br /> Applied physics and research knowledge through setting of
+              Applied physics and research knowledge through setting of
               structural loads, as well as influencing design outcomes using
               starting shapes, preserved geometry and obstacle geometry.
             </p>
@@ -256,6 +278,178 @@ export default function Portofolio() {
                 Visit Grapefoot Studio
               </button>
             </Link>
+          </div>
+        </section>
+
+        <section className="flex justify-center items-center gap-10 mt-20 flex-wrap mb-10 flex-row">
+          <div className=" w-[20rem] h-[20rem] gap-2 flex flex-col items-center justify-center">
+            <h1 className="font-bold text-xl text-yves-blue text-center">
+              Bread Basket Keyboard Caps
+            </h1>
+            <h1 className="font-light text-sm"> Personal Small Business</h1>
+            {/* <p>
+              <u>My Contributions</u>
+            </p> */}
+            <div className="flex flex-col gap-1">
+              <p>
+                <b>Store</b>: valubahloo
+              </p>
+              <p>
+                <b>Materials</b>: Polymer Clay, PBT Blanks, Acrylic, UV Resin
+              </p>
+            </div>
+            <p className="font-light text-center text-sm">
+              earlier keycap work with polymer clay and paint. sold on
+              CannonKeys, Daily Clack and Desk Hero.
+            </p>
+            <Link href="https://www.instagram.com/valubahloo/">
+              <button className="text-white bg-yves-blue p-2 text-sm  rounded">
+                Visit valubahloo
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center items-center flex-row w-[50rem]">
+            <button>
+              <ArrowCircleLeft
+                className="bg=yves-blue"
+                fontSize="large"
+                onClick={toggleLeft4}
+              />
+            </button>
+
+            <div className=" flex-nowrap ml-5 mr-5 overflow-x-scroll  flex flex-row">
+              <div
+                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap gap-10  "
+                id="row4"
+              >
+                <div className="min-w-[28rem] h-[20rem] bg-bread4 bg-contain bg-no-repeat bg-center "></div>
+                <div className="min-w-[16rem] h-[20rem] bg-bread1 bg-contain bg-no-repeat bg-top "></div>
+                <div className="min-w-[16rem] h-[20rem] bg-bread2 bg-contain bg-no-repeat bg-top"></div>{" "}
+                <div className="min-w-[16rem] h-[20rem] bg-bread3 bg-contain bg-no-repeat bg-top "></div>
+              </div>
+            </div>
+            <button>
+              <ArrowCircleRight
+                className="bg=yves-blue"
+                fontSize="large"
+                onClick={toggleRight4}
+              />
+            </button>
+          </div>
+        </section>
+        <section className="flex justify-center items-center gap-10 mt-20 flex-wrap mb-10 flex-row">
+          <div className="flex justify-center items-center flex-row w-[50rem]">
+            <button>
+              <ArrowCircleLeft
+                className="bg=yves-blue"
+                fontSize="large"
+                onClick={toggleLeft5}
+              />
+            </button>
+
+            <div className=" flex-nowrap ml-5 mr-5 overflow-x-scroll  flex flex-row">
+              <div
+                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap gap-10  "
+                id="row5"
+              >
+                <div className="min-w-[20rem] h-[20rem] bg-fruit1 bg-cover bg-no-repeat bg-center "></div>
+                <div className="min-w-[20rem] h-[20rem] bg-fruit3 bg-cover bg-no-repeat bg-center "></div>{" "}
+                <div className="min-w-[20rem] h-[20rem] bg-fruit2 bg-cover bg-no-repeat bg-center "></div>{" "}
+              </div>
+            </div>
+            <button>
+              <ArrowCircleRight
+                className="bg=yves-blue"
+                fontSize="large"
+                onClick={toggleRight5}
+              />
+            </button>
+          </div>
+          <div className=" w-[20rem] h-[20rem] gap-2 flex flex-col items-center justify-center">
+            <h1 className="font-bold text-xl text-yves-blue text-center">
+              Fruit Polymer Clay Jewellery
+            </h1>
+            <h1 className="font-light text-sm"> Personal Small Business</h1>
+            {/* <p>
+              <u>My Contributions</u>
+            </p> */}
+            <div className="flex flex-col gap-1">
+              <p>
+                <b>Store</b>: valubahloo
+              </p>
+              <p>
+                <b>Materials</b>: Polymer Clay, Acrylic, UV Resin
+              </p>
+            </div>
+            <p className="font-light text-center text-sm">
+              inspired by one of my favourite childhood snacks: the local
+              traditional, kueh lapis sagu
+            </p>
+            <Link href="https://www.instagram.com/grapefoot.studio/">
+              <button className="text-white bg-yves-blue p-2 text-sm  rounded">
+                Visit valubahloo
+              </button>
+            </Link>
+          </div>
+        </section>
+
+        <section className="flex justify-center items-center gap-10 mt-20 flex-wrap mb-10 flex-row">
+          <div className=" w-[20rem] h-[20rem] gap-2 flex flex-col items-center justify-center">
+            <h1 className="font-bold text-xl text-yves-blue text-center">
+              Polymer Clay Keyboard Caps
+            </h1>
+            <h1 className="font-light text-sm"> Personal Small Business</h1>
+            {/* <p>
+              <u>My Contributions</u>
+            </p> */}
+            <div className="flex flex-col gap-1">
+              <p>
+                <b>Store</b>: valubahloo
+              </p>
+              <p>
+                <b>Materials</b>: Polymer Clay, PBT Blanks, Acrylic, UV Resin
+              </p>
+            </div>
+            <p className="font-light text-center text-sm">
+              Earlier keycap work with polymer clay and paint. Sold on
+              CannonKeys, Daily Clack and Desk Hero.
+            </p>
+            <Link href="https://www.instagram.com/valubahloo/">
+              <button className="text-white bg-yves-blue p-2 text-sm  rounded">
+                Visit valubahloo
+              </button>
+            </Link>
+          </div>
+          <div className="flex justify-center items-center flex-row w-[50rem]">
+            <button>
+              <ArrowCircleLeft
+                className="bg=yves-blue"
+                fontSize="large"
+                onClick={toggleLeft6}
+              />
+            </button>
+
+            <div className=" flex-nowrap ml-5 mr-5 overflow-x-scroll  flex flex-row">
+              <div
+                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap gap-10  "
+                id="row6"
+              >
+                {" "}
+                <div className="min-w-[30rem] h-[20rem] bg-kc4 bg-contain bg-no-repeat bg-center "></div>
+                <div className="min-w-[20rem] h-[20rem] bg-kc3 bg-contain bg-no-repeat bg-center "></div>
+                <div className="min-w-[22rem] h-[20rem] bg-kc1 bg-contain bg-no-repeat bg-center "></div>
+                <div className="min-w-[20rem] h-[20rem] bg-kc2 bg-contain bg-no-repeat bg-center "></div>
+                <div className="min-w-[20rem] h-[20rem] bg-kc5 bg-contain bg-no-repeat bg-center "></div>
+                <div className="min-w-[22rem] h-[20rem] bg-kc6 bg-contain bg-no-repeat bg-center "></div>
+              </div>
+            </div>
+            <button>
+              <ArrowCircleRight
+                className="bg=yves-blue"
+                fontSize="large"
+                onClick={toggleRight6}
+              />
+            </button>
           </div>
         </section>
       </body>
