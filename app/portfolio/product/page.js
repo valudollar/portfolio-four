@@ -165,7 +165,10 @@ export default function Portofolio() {
               </p>
             </div>
             <p className="font-light text-sm text-center">
-              Module: AI Applications
+              Module: AI Applications in Design
+              <br /> Applied physics and research knowledge through setting of
+              structural loads, as well as influencing design outcomes using
+              starting shapes, preserved geometry and obstacle geometry.
             </p>
           </div>
           <div className="flex justify-center items-center flex-row w-[50rem]">
@@ -212,7 +215,12 @@ export default function Portofolio() {
                 className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap gap-10  "
                 id="row3"
               >
-                <div className="min-w-[20rem] h-[20rem] bg-weightlift bg-cover bg-no-repeat bg-center "></div>
+                <div className="min-w-[20rem] h-[20rem] bg-kueh1 bg-cover bg-no-repeat bg-center "></div>
+                <div className="min-w-[20rem] h-[20rem] bg-kueh3 bg-cover bg-no-repeat bg-center "></div>{" "}
+                <div className="min-w-[28rem] h-[20rem] bg-kueh2 bg-cover bg-no-repeat bg-center "></div>
+                {/* <div className="min-w-[20rem] h-[20rem] bg-rainbow1 bg-cover bg-no-repeat bg-center "></div> */}
+                <div className="min-w-[20rem] h-[20rem] bg-rainbow2 bg-cover bg-no-repeat bg-center "></div>
+                <div className="min-w-[20rem] h-[20rem] bg-rainbow3 bg-cover bg-no-repeat bg-center "></div>
               </div>
             </div>
             <button>
@@ -239,7 +247,10 @@ export default function Portofolio() {
                 <b>Materials</b>: Epoxy Resin
               </p>
             </div>
-            <p className="font-light text-center text-sm">some other text</p>
+            <p className="font-light text-center text-sm">
+              inspired by one of my favourite childhood snacks: the local
+              traditional, kueh lapis sagu
+            </p>
             <Link href="https://www.instagram.com/grapefoot.studio/">
               <button className="text-white bg-yves-blue p-2 text-sm  rounded">
                 Visit Grapefoot Studio

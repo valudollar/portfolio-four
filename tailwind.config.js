@@ -59,6 +59,12 @@ module.exports = {
         backtest: "url('../images/backtest.png')",
         testcircle: "url('../images/testcircleyellow.svg')",
         eye: "url('../images/eye.png')",
+        kueh1: "url('../images/kueh1.jpg')",
+        kueh2: "url('../images/kueh2.JPG')",
+        kueh3: "url('../images/kueh3.JPG')",
+        rainbow1: "url('../images/rainbow1.png')",
+        rainbow2: "url('../images/rainbow2.png')",
+        rainbow3: "url('../images/rainbow3.png')",
 
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

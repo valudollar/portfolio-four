@@ -49,7 +49,7 @@ export default function Home() {
               <div className=" flex-col  items-center justify-center flex shadow-lg absolute w-full h-full backface-hidden bg-slate-200 text-black rounded-2xl">
                 <div className="flex justify-center w-[18rem] h-[24rem] rounded-xl bg-magician bg-no-repeat bg-cover"></div>
                 <div className=" flex mt-3 justify-center items-center h-6 w-full rounded-xl">
-                  <h1 className="text-yves-blue text-base  ">
+                  <h1 className="text-yves-blue font-medium  ">
                     WEB DEVELOPMENT
                   </h1>
                 </div>
@@ -73,7 +73,23 @@ export default function Home() {
                     <p className="text-my-yellow font-bold">•</p>
                     <p className="text-white ">FIGMA</p>
                   </div>
-                  <Link href="/portfolio/digital">
+                  <div className=" text-my-yellow flex flex-row flex-wrap justify-center items-center">
+                    <p className="text-xs w-16 text-center">CLICK ME FOR</p>
+                    <Link href="/portfolio/digital">
+                      <div className="mt-2 flex justify-center items-center w-[6rem] h-[6rem]">
+                        <Image
+                          src={eye}
+                          className=" mr-2  hover:scale-125"
+                          width={50}
+                          height={50}
+                        ></Image>
+                      </div>
+                    </Link>
+                    <p className="text-xs w-16  text-center">
+                      WEB/APP PROJECTS
+                    </p>
+                  </div>
+                  {/* <Link href="/portfolio/digital">
                     <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
                       <Image
                         src={eye}
@@ -82,7 +98,7 @@ export default function Home() {
                         height={50}
                       ></Image>
                     </div>
-                  </Link>
+                  </Link> */}
                   <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 gap-2">
                     <p className="text-white ">AGILE</p>
                     <p className="text-my-yellow font-bold">•</p>
@@ -105,7 +121,7 @@ export default function Home() {
               <div className=" flex-col items-center justify-center flex shadow-lg absolute w-full h-full backface-hidden bg-slate-200 text-black rounded-2xl">
                 <div className="flex justify-center w-[18rem] h-[24rem] rounded-xl bg-king bg-no-repeat bg-cover"></div>
                 <div className=" flex mt-3 justify-center items-center h-6 w-full rounded-xl">
-                  <h1 className="text-yves-blue text-base "> ABOUT ME</h1>
+                  <h1 className="text-yves-blue  font-medium "> ABOUT ME</h1>
                 </div>
               </div>
               <div className=" items-center justify-center flex shadow-lg absolute my-rotate-y-180 backface-hidden w-full h-full bg-slate-200 rounded-2xl">
@@ -116,7 +132,21 @@ export default function Home() {
                     <b>Singapore University of Technology and Design</b>. i love
                     cats, Yves Klein blue (#002FA7) and doing martial arts!
                   </p>
-                  <Link href="/about">
+                  <div className=" text-my-yellow flex flex-row flex-wrap justify-center items-center">
+                    <p className="text-xs w-16 text-center">CLICK ME FOR</p>
+                    <Link href="/about">
+                      <div className="mt-2 flex justify-center items-center w-[6rem] h-[6rem]">
+                        <Image
+                          src={eye}
+                          className=" mr-2  hover:scale-125"
+                          width={50}
+                          height={50}
+                        ></Image>
+                      </div>
+                    </Link>
+                    <p className="text-xs w-16  text-center">MORE ABOUT ME</p>
+                  </div>
+                  {/* <Link href="/about">
                     <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
                       <Image
                         src={eye}
@@ -125,7 +155,7 @@ export default function Home() {
                         height={50}
                       ></Image>
                     </div>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -135,7 +165,10 @@ export default function Home() {
               <div className=" flex-col items-center justify-center flex shadow-lg absolute w-full h-full backface-hidden bg-slate-200 text-black rounded-2xl">
                 <div className="flex justify-center w-[18rem] h-[24rem] rounded-xl bg-artisan bg-no-repeat bg-cover"></div>
                 <div className=" flex mt-3 justify-center items-center h-6 w-full rounded-xl">
-                  <h1 className="text-yves-blue text-base "> PRODUCT DESIGN</h1>
+                  <h1 className="text-yves-blue  font-medium ">
+                    {" "}
+                    PRODUCT DESIGN
+                  </h1>
                 </div>
               </div>
               <div className=" items-center justify-center flex shadow-lg absolute my-rotate-y-180 backface-hidden w-full h-full bg-slate-200 rounded-2xl">
@@ -154,7 +187,7 @@ export default function Home() {
                   <div className="flex flex-row  font-medium justify-center ml-2 mr-2 mt-2 gap-2">
                     <p className="text-white ">SKETCHUP</p>
                   </div>
-                  <Link href="/portfolio/product">
+                  {/* <Link href="/portfolio/product">
                     <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
                       <Image
                         src={eye}
@@ -163,7 +196,21 @@ export default function Home() {
                         height={50}
                       ></Image>
                     </div>
-                  </Link>
+                  </Link> */}
+                  <div className=" text-my-yellow flex flex-row flex-wrap justify-center items-center">
+                    <p className="text-xs w-16 text-center">CLICK ME FOR</p>
+                    <Link href="/portfolio/product">
+                      <div className="mt-2 flex justify-center items-center w-[6rem] h-[6rem]">
+                        <Image
+                          src={eye}
+                          className=" mr-2  hover:scale-125"
+                          width={50}
+                          height={50}
+                        ></Image>
+                      </div>
+                    </Link>
+                    <p className="text-xs w-16  text-center">DESIGN PROJECTS</p>
+                  </div>
 
                   <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 gap-5">
                     <p className="text-white hover:underline decoration-my-yellow decoration-2 ">
@@ -192,7 +239,7 @@ export default function Home() {
               <div className=" flex-col items-center justify-center flex shadow-lg absolute w-full h-full backface-hidden bg-slate-200 text-black rounded-2xl">
                 <div className="flex justify-center w-[18rem] h-[24rem] rounded-xl bg-magician bg-no-repeat bg-cover"></div>
                 <div className=" flex mt-3 justify-center items-center h-6 w-full rounded-xl">
-                  <h1 className="text-yves-blue text-base "> EDUCATION</h1>
+                  <h1 className="text-yves-blue  font-medium "> EDUCATION</h1>
                 </div>
               </div>
               <div className=" items-center justify-center flex shadow-lg absolute my-rotate-y-180 backface-hidden w-full h-full bg-slate-200 rounded-2xl">
@@ -204,17 +251,20 @@ export default function Home() {
                   <div className="flex flex-row  font-medium justify-center ml-2 mr-2 mt-2 gap-2">
                     <p className="text-white ">TECHNOLOGY AND DESIGN</p>
                   </div>
-
-                  <Link href="/about">
-                    <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
-                      <Image
-                        src={eye}
-                        className=" mr-2  hover:scale-125"
-                        width={50}
-                        height={50}
-                      ></Image>
-                    </div>
-                  </Link>
+                  <div className=" text-my-yellow flex flex-row flex-wrap justify-center items-center">
+                    <p className="text-xs w-16 text-center">CLICK ME FOR</p>
+                    <Link href="/about/education">
+                      <div className="mt-2 flex justify-center items-center w-[6rem] h-[6rem]">
+                        <Image
+                          src={eye}
+                          className=" mr-2  hover:scale-125"
+                          width={50}
+                          height={50}
+                        ></Image>
+                      </div>
+                    </Link>
+                    <p className="text-xs w-16  text-center">MORE DETAILS</p>
+                  </div>
                   <div className="flex flex-row  font-medium justify-center ml-2 mr-2 mt-2 gap-2">
                     <p className="text-my-yellow font-medium">DESIGN AND AI</p>
                   </div>
@@ -234,7 +284,7 @@ export default function Home() {
               <div className=" flex-col items-center justify-center flex shadow-lg absolute w-full h-full backface-hidden bg-slate-200 text-black rounded-2xl">
                 <div className="flex justify-center w-[18rem] h-[24rem] rounded-xl bg-magician bg-no-repeat bg-cover"></div>
                 <div className=" flex mt-3 justify-center items-center h-6 w-full rounded-xl">
-                  <h1 className="text-yves-blue text-base "> ART </h1>
+                  <h1 className="text-yves-blue  font-medium "> ART </h1>
                 </div>
               </div>
               <div className=" items-center justify-center flex shadow-lg absolute my-rotate-y-180 backface-hidden w-full h-full bg-slate-200 rounded-2xl">
@@ -256,7 +306,7 @@ export default function Home() {
                       </p>
                     </Link>
                   </div>
-                  <Link href="/portfolio/art">
+                  {/* <Link href="/portfolio/art">
                     <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
                       <Image
                         src={eye}
@@ -265,7 +315,21 @@ export default function Home() {
                         height={50}
                       ></Image>
                     </div>
-                  </Link>
+                  </Link> */}
+                  <div className=" text-my-yellow flex flex-row flex-wrap justify-center items-center">
+                    <p className="text-xs w-16 text-center">CLICK ME FOR</p>
+                    <Link href="/portfolio/art">
+                      <div className="mt-2 flex justify-center items-center w-[6rem] h-[6rem]">
+                        <Image
+                          src={eye}
+                          className=" mr-2  hover:scale-125"
+                          width={50}
+                          height={50}
+                        ></Image>
+                      </div>
+                    </Link>
+                    <p className="text-xs w-16  text-center">ART PORTFOLIO</p>
+                  </div>
 
                   <div className="flex flex-row  font-medium justify-center ml-2 mr-2 mt-2 gap-2">
                     <p className="text-white ">PROCREATE</p>
@@ -291,7 +355,7 @@ export default function Home() {
                   <div className="flex justify-center"></div>
                 </div>
                 <div className=" flex mt-3 justify-center items-center h-6 w-full rounded-xl">
-                  <h1 className="text-yves-blue text-base">
+                  <h1 className="text-yves-blue  font-medium">
                     INDUSTRY EXPERIENCE
                   </h1>
                 </div>
@@ -308,8 +372,21 @@ export default function Home() {
                     <p className="text-my-yellow font-bold">•</p>
                     <p className="text-white ">DNATA</p>
                   </div>
-
-                  <Link href="/about">
+                  <div className=" text-my-yellow flex flex-row flex-wrap justify-center items-center">
+                    <p className="text-xs w-16 text-center">CLICK ME FOR</p>
+                    <Link href="/about/work">
+                      <div className="mt-2 flex justify-center items-center w-[6rem] h-[6rem]">
+                        <Image
+                          src={eye}
+                          className=" mr-2  hover:scale-125"
+                          width={50}
+                          height={50}
+                        ></Image>
+                      </div>
+                    </Link>
+                    <p className="text-xs w-16  text-center">MORE DETAILS</p>
+                  </div>
+                  {/* <Link href="/about">
                     <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
                       <Image
                         src={eye}
@@ -318,7 +395,7 @@ export default function Home() {
                         height={50}
                       ></Image>
                     </div>
-                  </Link>
+                  </Link> */}
                   <div className=" flex flex-row font-medium justify-center ml-2 mr-2 mt-2 gap-2">
                     <p className="text-my-yellow ">INTERNSHIPS</p>
                   </div>
