@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import { ArrowBackIos } from "@mui/icons-material";
 import { ArrowForwardIos } from "@mui/icons-material";
 import Footer from "@/components/Footer";
+import { motion } from "framer-motion";
 
 const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
   ssr: false,
@@ -93,11 +94,21 @@ export default function Portofolio() {
             </Link>
           </div>
         </section> */}
-        <section className="flex justify-center items-center gap-5 mt-10 flex-wrap mb-10 flex-row">
+        <motion.section
+          initial={{ y: 0, opacity: 0 }}
+          animate={{ y: 10, opacity: 1 }}
+          transition={{
+            ease: "linear",
+            type: "spring",
+            stiffness: 50,
+            duration: 2,
+          }}
+          className="flex justify-center items-center gap-5 mt-10 flex-wrap mb-10 flex-row"
+        >
           <div className="flex justify-center items-center flex-row w-[50rem]">
             <button>
               <ArrowBackIos
-                className="bg=yves-blue"
+                className="text-yves-blue"
                 fontSize="large"
                 onClick={toggleLeft1}
               />
@@ -123,7 +134,7 @@ export default function Portofolio() {
             </div>
             <button>
               <ArrowForwardIos
-                className="bg=yves-blue"
+                className="text-yves-blue"
                 fontSize="large"
                 onClick={toggleRight1}
               />
@@ -161,9 +172,19 @@ export default function Portofolio() {
               </button>
             </Link>
           </div>
-        </section>
+        </motion.section>
 
-        <section className="flex justify-center items-center gap-10 mt-20 flex-wrap mb-10 flex-row">
+        <motion.section
+          initial={{ y: 0, opacity: 0 }}
+          animate={{ y: 10, opacity: 1 }}
+          transition={{
+            ease: "linear",
+            type: "spring",
+            stiffness: 50,
+            duration: 2,
+          }}
+          className="flex justify-center items-center gap-10 mt-20 flex-wrap mb-10 flex-row"
+        >
           <div className=" w-[20rem] h-[20rem] gap-2 flex flex-col items-center justify-center">
             <h1 className="font-bold text-xl text-yves-blue text-center">
               Ride Hailing Simulation for Profit Estimation
@@ -179,7 +200,7 @@ export default function Portofolio() {
               </p>
               <p>
                 <b>Design Thinking & Systems Design</b>: Stakeholder Analysis,
-                User Personas, State Diagrams, Discrete Event Chart
+                User Personas, State Diagrams, Discrete Event Simulation
               </p>
             </div>
             <p className="font-light text-sm text-center">
@@ -190,7 +211,7 @@ export default function Portofolio() {
           <div className="flex justify-center items-center flex-row w-[50rem]">
             <button>
               <ArrowBackIos
-                className="bg=yves-blue"
+                className="text-yves-blue"
                 fontSize="large"
                 onClick={toggleLeft2}
               />
@@ -215,19 +236,19 @@ export default function Portofolio() {
             </div>
             <button>
               <ArrowForwardIos
-                className="bg=yves-blue"
+                className="text-yves-blue"
                 fontSize="large"
                 onClick={toggleRight2}
               />
             </button>
           </div>
-        </section>
+        </motion.section>
 
         <section className="flex justify-center items-center gap-10 mt-20 flex-wrap mb-10 flex-row">
           <div className="flex justify-center items-center flex-row w-[50rem]">
             <button>
               <ArrowBackIos
-                className="bg=yves-blue"
+                className="text-yves-blue"
                 fontSize="large"
                 onClick={toggleLeft3}
               />
@@ -250,7 +271,7 @@ export default function Portofolio() {
             </div>
             <button>
               <ArrowForwardIos
-                className="bg=yves-blue"
+                className="text-yves-blue"
                 fontSize="large"
                 onClick={toggleRight3}
               />

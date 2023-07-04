@@ -47,13 +47,13 @@ export default function Home() {
         </section>
 
         <motion.section
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          initial={{ y: 0, opacity: 0 }}
+          animate={{ y: 10, opacity: 1 }}
           transition={{
             ease: "linear",
             type: "spring",
-            stiffness: 100,
-            duration: 0.1,
+            stiffness: 50,
+            duration: 2,
           }}
           className="flex mt-10 mb-10 gap-5 flex-wrap flex-row justify-center"
         >
