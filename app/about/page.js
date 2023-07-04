@@ -4,11 +4,6 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
 
 const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
   ssr: false,
@@ -73,29 +68,60 @@ export default function About() {
           <div className="flex flex-col m-5 text-yves-blue">
             <h1 className="font-bold">education</h1>
             <ul className=" ml-5 list-disc">
-              <li>Singapore University of Technology and Design</li>
-              <li>Raffles Institution</li>
+              <li>
+                2020-2024: Singapore University of Technology and Design (SUTD)
+              </li>
+              <li>2018-2019: Raffles Institution</li>
             </ul>
           </div>
           <div className="flex flex-col m-5 text-yves-blue">
             <h1 className="font-bold">achievements</h1>
             <ul className=" ml-5 list-disc">
-              {/* <li>Singapore University of Technology and Design</li>
-              <li>Raffles Institution</li> */}
+              <li>2020: SUTD Design and AI Challenge - 1st</li>
+              <li>
+                2020: SUTD X Singapore Cruise Center Design Challenge - 1st
+              </li>
+              <li>2020: NUS Ideate Play Category - 2nd </li>
+              <li>2017: Odyssey of the Mind World Finals - 12th </li>
+              <li>2016: Odyssey of the Mind World Finals - 2nd </li>
             </ul>
           </div>
           <div className="flex flex-col m-5 text-yves-blue">
             <h1 className="font-bold">skills/tools/programs</h1>
             <ul className=" ml-5 list-disc">
-              {/* <li>Singapore University of Technology and Design</li>
-              <li>Raffles Institution</li> */}
+              <li>Programming: HTML, CSS, Javascript, Python</li>
+              <li>CAD: Fusion360, Rhino, Sketchup</li>
+              <li>Design: Procreate, Illustrator</li>
             </ul>
           </div>
           <div className="flex flex-col m-5 text-yves-blue">
             <h1 className="font-bold">industry experience</h1>
             <ul className=" ml-5 list-disc">
-              {/* <li>Singapore University of Technology and Design</li>
-              <li>Raffles Institution</li> */}
+              <li>2023: Systems Design Studio - Grab</li>
+              <li>2022: Design Innovation Intern - Thales </li>
+              <li>2022: Service Design Studio - SUTD, Google</li>
+              <li>2022: Product Design Studio - dnata</li>
+              <li>2022: Singapore Mentorship Program - Peasy </li>
+            </ul>
+          </div>{" "}
+          <div className="flex flex-col m-5 text-yves-blue">
+            <h1 className="font-bold">research programs</h1>
+            <ul className=" ml-5 list-disc">
+              <li>
+                2021-2022: Livestream selling Market Research - Singapore
+                Mentorship Program
+              </li>
+              <li>
+                2021-2023: Airport Experience Research - SUTD Undergraduate
+                Research Opportunities Program
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-col m-5 text-yves-blue">
+            <h1 className="font-bold">co-curriculars</h1>
+            <ul className=" ml-5 list-disc">
+              <li></li>
+              <li></li>
             </ul>
           </div>
         </motion.section>
