@@ -71,7 +71,7 @@ export default function Portofolio() {
               />
             </button>
 
-            <div className=" flex-nowrap ml-5 mr-5  flex flex-row">
+            <div className=" flex-nowrap ml-5 mr-5 overflow-x-hidden flex flex-row">
               <div
                 className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10  "
                 id="row1"
