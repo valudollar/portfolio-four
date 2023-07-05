@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import testcircle from "images/testcircle.svg";
 import backtest from "images/backtest.png";
-
+import styles from "./page.module.css";
 import eye from "images/eye.png";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
@@ -59,6 +59,8 @@ export default function Home() {
         >
           <div className="  w-[20rem] h-[28rem] cursor-pointer group perspective ">
             <div className="relative preserve-3d group-focus:my-rotate-y-180 group-hover:my-rotate-y-180 w-full h-full delay-500 ease-in-out duration-[2000ms] ">
+              {/* <div className={styles.groupflipcard}>
+              <div className={styles.flipcardface}> */}
               <div className=" flex-col  items-center justify-center flex shadow-lg absolute w-full h-full backface-hidden bg-slate-200 text-black rounded-2xl">
                 <div className="flex justify-center w-[18rem] h-[24rem] rounded-xl bg-magician bg-no-repeat bg-cover"></div>
                 <div className=" flex mt-3 justify-center items-center h-6 w-full rounded-xl">
