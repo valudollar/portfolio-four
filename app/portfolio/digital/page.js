@@ -189,7 +189,7 @@ export default function Portofolio() {
             <h1 className="font-bold text-xl text-yves-blue text-center">
               Ride Hailing Simulation for Profit Estimation
             </h1>
-            <h1 className="font-light"> Partnered with GRAB</h1>
+            <h1 className="font-light"> Partnered with Grab</h1>
             <p>
               <u>My Contributions</u>
             </p>
@@ -281,7 +281,7 @@ export default function Portofolio() {
             <h1 className="font-bold text-xl text-yves-blue text-center">
               Deadlift Form Checker and Fitness Journal
             </h1>
-            <h1 className="font-light"> Mentored by Google & SUTD</h1>
+
             <p>
               <u>My Contributions</u>
             </p>

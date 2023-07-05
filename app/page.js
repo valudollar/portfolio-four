@@ -55,7 +55,7 @@ export default function Home() {
             stiffness: 50,
             duration: 2,
           }}
-          className="flex mt-10 mb-10 gap-5 flex-wrap flex-row justify-center"
+          className="flex mt-10 mb-10 space-x-5 flex-wrap flex-row justify-center"
         >
           <div className="  w-[20rem] h-[28rem] cursor-pointer group perspective ">
             <div className="relative preserve-3d group-focus:my-rotate-y-180 group-hover:my-rotate-y-180 w-full h-full delay-500 ease-in-out duration-[2000ms] ">
@@ -186,7 +186,7 @@ export default function Home() {
               </div>
               <div className=" items-center justify-center flex shadow-lg absolute my-rotate-y-180 backface-hidden w-full h-full bg-slate-200 rounded-2xl">
                 <div className="w-[18rem] h-[26rem] flex-col flex items-center justify-center rounded-xl text-white text-base  bg-yves-blue">
-                  <div className=" flex flex-row font-medium justify-center ml-2 mr-2 mt-2 gap-2">
+                  <div className=" flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
                     <p className="text-white ">3D PRINTING</p>{" "}
                     <p className="text-my-yellow font-bold">•</p>
                     <p className="text-white ">LASER CUTTING</p>
