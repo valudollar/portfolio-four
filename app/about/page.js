@@ -34,7 +34,7 @@ export default function About() {
         >
           <div className="flex flex-row ml-5 mr-5 mt-5 ">
             <div className="w-[20rem] h-[15rem] bg-black"></div>
-            <div className=" w-[40rem]  flex flex-col flex-wrap ml-20 mr-10 text-yves-blue gap-3">
+            <div className=" w-[40rem]  flex flex-col flex-wrap ml-20 mr-10 text-yves-blue space-x-3">
               <p className="">
                 hello! my name is valerie, but everyone calls me valu (vah-loo)
               </p>

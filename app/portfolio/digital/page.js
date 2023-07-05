@@ -50,50 +50,7 @@ export default function Portofolio() {
             WEB/APP PROJECTS
           </h1>
         </header>
-        {/* <header className=" mt-5 mb-5 flex items-center gap-5 justify-center flex-col">
-          <p className="font-light text-yves-blue">
-            click on the cards below to view by the type of project/work{" "}
-          </p>
-        </header>
-        <section className=" mb-10 flex justify-center">
-          <div className="flex flex-row gap-4">
-            <Link href="/portfolio/digital">
-              <div className="flex flex-col gap-3 items-center  ">
-                <div className=" items-center flex-col justify-center shadow-md rounded-md flex w-[10rem] h-[15rem] bg-slate-200 hover:scale-110">
-                  <div className="w-[9rem] h-[12rem] rounded-md bg-magician bg-cover bg-center"></div>
-                  <div className=" w-full h-[1rem] mt-3 flex justify-center items-center">
-                    <h1 className="text-sm font-medium text-yves-blue">
-                      WEB/APPS
-                    </h1>
-                  </div>
-                </div>
-              </div>
-            </Link>
-            <Link href="/portfolio/product">
-              <div className="flex flex-col gap-3  items-center  ">
-                <div className="items-center flex-col justify-center shadow-md rounded-md flex w-[10rem] h-[15rem] bg-slate-200 hover:scale-110">
-                  <div className="w-[9rem] h-[12rem] rounded-md bg-yves-blue bg-cover bg-center"></div>
-                  <div className=" w-full h-[1rem] mt-3 flex justify-center items-center">
-                    <h1 className="text-sm font-medium text-yves-blue">
-                      PRODUCT DESIGN
-                    </h1>
-                  </div>
-                </div>
-              </div>
-            </Link>
 
-            <Link href="/portfolio/art">
-              <div className="flex flex-col gap-3  items-center  ">
-                <div className="items-center flex-col justify-center shadow-md rounded-md flex w-[10rem] h-[15rem] bg-slate-200 hover:scale-110">
-                  <div className="w-[9rem] h-[12rem] rounded-md bg-yves-blue bg-cover bg-center"></div>
-                  <div className=" w-full h-[1rem] mt-3 flex justify-center items-center">
-                    <h1 className="text-sm font-medium text-yves-blue">ART</h1>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </div>
-        </section> */}
         <motion.section
           initial={{ y: 0, opacity: 0 }}
           animate={{ y: 10, opacity: 1 }}
@@ -103,7 +60,7 @@ export default function Portofolio() {
             stiffness: 50,
             duration: 2,
           }}
-          className="flex justify-center items-center gap-5 mt-10 flex-wrap mb-10 flex-row"
+          className="flex justify-center items-center space-x-5 mt-10 flex-wrap mb-10 flex-row"
         >
           <div className="flex justify-center items-center flex-row w-[50rem]">
             <button>
@@ -116,7 +73,7 @@ export default function Portofolio() {
 
             <div className=" flex-nowrap ml-5 mr-5 overflow-x-scroll  flex flex-row">
               <div
-                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap gap-10  "
+                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10  "
                 id="row1"
               >
                 <div className="min-w-[22rem] h-[20rem] bg-sdscover bg-cover bg-no-repeat bg-center "></div>
@@ -140,7 +97,7 @@ export default function Portofolio() {
               />
             </button>
           </div>
-          <div className=" w-[20rem] h-[20rem] gap-2 flex flex-col items-center justify-center">
+          <div className=" w-[20rem] h-[20rem] space-x-2 flex flex-col items-center justify-center">
             <h1 className="font-bold text-xl text-yves-blue">
               Peer Evaluation Platform
             </h1>
@@ -148,7 +105,7 @@ export default function Portofolio() {
             <p>
               <u>My Contributions</u>
             </p>
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col space-x-1">
               <p>
                 <b>Front-End Development</b>: ReactJS, Javascript, CSS,
                 Bootstrap, Material UI
@@ -183,9 +140,9 @@ export default function Portofolio() {
             stiffness: 50,
             duration: 2,
           }}
-          className="flex justify-center items-center gap-10 mt-20 flex-wrap mb-10 flex-row"
+          className="flex justify-center items-center space-x-10 mt-20 flex-wrap mb-10 flex-row"
         >
-          <div className=" w-[20rem] h-[20rem] gap-2 flex flex-col items-center justify-center">
+          <div className=" w-[20rem] h-[20rem] space-x-2flex flex-col items-center justify-center">
             <h1 className="font-bold text-xl text-yves-blue text-center">
               Ride Hailing Simulation for Profit Estimation
             </h1>
@@ -193,7 +150,7 @@ export default function Portofolio() {
             <p>
               <u>My Contributions</u>
             </p>
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col space-x-1">
               <p>
                 <b>Agent-Based Modelling & Animated Simulation</b>: ReactJS,
                 Mapbox GL JS, Javascript, CSS
@@ -219,7 +176,7 @@ export default function Portofolio() {
 
             <div className=" flex-nowrap ml-5 mr-5 overflow-x-scroll  flex flex-row">
               <div
-                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap gap-10  "
+                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10 "
                 id="row2"
               >
                 {/* <div className="min-w-[30rem] h-[20rem] bg-sim1 bg-contain bg-no-repeat bg-center "></div> */}
@@ -244,7 +201,7 @@ export default function Portofolio() {
           </div>
         </motion.section>
 
-        <section className="flex justify-center items-center gap-10 mt-20 flex-wrap mb-10 flex-row">
+        <section className="flex justify-center items-center space-x-10 mt-20 flex-wrap mb-10 flex-row">
           <div className="flex justify-center items-center flex-row w-[50rem]">
             <button>
               <ArrowBackIos
@@ -256,7 +213,7 @@ export default function Portofolio() {
 
             <div className=" flex-nowrap ml-5 mr-5 overflow-x-scroll  flex flex-row">
               <div
-                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap gap-10  "
+                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10  "
                 id="row3"
               >
                 <div className="min-w-[20rem] h-[20rem] bg-weightlift bg-cover bg-no-repeat bg-center "></div>
@@ -277,7 +234,7 @@ export default function Portofolio() {
               />
             </button>
           </div>
-          <div className=" w-[20rem] h-[20rem] gap-2 flex flex-col items-center justify-center">
+          <div className=" w-[20rem] h-[20rem] space-x-10 flex flex-col items-center justify-center">
             <h1 className="font-bold text-xl text-yves-blue text-center">
               Deadlift Form Checker and Fitness Journal
             </h1>
@@ -285,7 +242,7 @@ export default function Portofolio() {
             <p>
               <u>My Contributions</u>
             </p>
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col space-x-1">
               <p>
                 <b>Front-End Development</b>: ReactJS, Javascript, CSS, Mantine
                 UI

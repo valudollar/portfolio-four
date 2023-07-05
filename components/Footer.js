@@ -9,7 +9,7 @@ import gmail from "images/gmail.svg";
 export default function Footer() {
   return (
     <>
-      <footer className="flex justify-end  gap-2 flex-row m-5">
+      <footer className="flex justify-end  space-x-2 flex-row m-5">
         <p className=" text-yves-blue text-2xl">reach out to me</p>
         <Link href="https://github.com/valudollar/portfolio-four">
           <Image src={github} className="w-8 h-8"></Image>

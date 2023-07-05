@@ -11,7 +11,7 @@ export default function Navbar() {
             <button className=" text-base ">VALU'S PORTFOLIO</button>
           </Link>
         </div>
-        <div className=" flex justify-end gap-5 mr-5">
+        <div className=" flex justify-end space-x-5 mr-5">
           <Link href="/about">
             <button className=" text-base hover:underline decoration-my-yellow decoration-2">
               ABOUT
