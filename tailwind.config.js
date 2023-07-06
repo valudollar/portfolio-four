@@ -124,6 +124,9 @@ module.exports = {
         ".backface-hidden": {
           backfaceVisibility: "hidden",
         },
+        ".webkit-backface": {
+          // -webkit-backface-visibility: hidden;
+        },
       };
       addUtilities(newUtilities);
     }),

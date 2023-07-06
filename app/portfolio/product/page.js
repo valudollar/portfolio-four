@@ -69,372 +69,373 @@ export default function Portofolio() {
             DESIGN PROJECTS
           </h1>
         </header>
-
-        <motion.section
-          initial={{ y: 0, opacity: 0 }}
-          animate={{ y: 10, opacity: 1 }}
-          transition={{
-            ease: "linear",
-            type: "spring",
-            stiffness: 50,
-            duration: 2,
-          }}
-          className="flex justify-center items-center space-x-10 mt-10 flex-wrap mb-10 flex-row"
-        >
-          <div className="flex justify-center items-center flex-row w-[50rem]">
-            <button>
-              <ArrowBackIos
-                className="text-yves-blue"
-                fontSize="large"
-                onClick={toggleLeft1}
-              />
-            </button>
-
-            <div className=" flex-nowrap ml-5 mr-5 overflow-x-hidden  flex flex-row">
-              <div
-                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-5 "
-                id="row1"
-              >
-                <div className="min-w-[20rem] h-[20rem] bg-dnatapres bg-cover bg-no-repeat bg-center"></div>
-                <div className="min-w-[17rem] h-[20rem] bg-pds12 bg-cover bg-no-repeat bg-center"></div>
-                <div className="min-w-[14rem] h-[20rem] bg-pds13 bg-cover bg-no-repeat bg-left"></div>
-                <div className="min-w-[32rem] h-[20rem] bg-pds10 bg-contain bg-no-repeat bg-center"></div>
-                <div className="min-w-[27rem] h-[20rem] bg-pds11 bg-cover bg-no-repeat bg-center"></div>{" "}
-                <div className="min-w-[40rem] h-[20rem] bg-pds8 bg-contain bg-no-repeat bg-center"></div>
-                <div className="min-w-[40rem] h-[20rem] bg-pds6 bg-contain bg-no-repeat bg-center"></div>
-                <div className="min-w-[30rem] h-[20rem] bg-pds7 bg-contain bg-no-repeat bg-center"></div>
-                <div className="min-w-[24rem] h-[20rem] bg-pds5 bg-contain bg-no-repeat bg-center"></div>
-                <div className="min-w-[75rem] h-[20rem] bg-pds3 bg-contain bg-no-repeat bg-center"></div>
-                <div className="min-w-[43rem] h-[20rem] bg-pds1 bg-contain bg-no-repeat bg-center "></div>
-                <div className="min-w-[30rem] h-[20rem] bg-pds2 bg-contain bg-no-repeat bg-center"></div>
-                <div className="min-w-[20rem] h-[20rem] bg-pds4 bg-contain bg-no-repeat bg-center"></div>
-                <div className="min-w-[24rem] h-[20rem] bg-pds9 bg-contain bg-no-repeat bg-center"></div>
-              </div>
-            </div>
-            <button>
-              <ArrowForwardIos
-                className="text-yves-blue"
-                fontSize="large"
-                onClick={toggleRight1}
-              />
-            </button>
-          </div>
-          <div className=" w-[20rem] h-[20rem] space-x-2 flex flex-col items-center justify-center">
-            <h1 className="font-bold text-xl text-yves-blue">
-              Handcarry Baggage Checker
-            </h1>
-            <h1 className="font-light text-sm"> Partnered with Dnata</h1>
-            <p>
-              <u>My Contributions</u>
-            </p>
-            <div className="flex flex-col space-x-1">
-              <p>
-                <b>Fabrication</b>: 3D Printing, Laser Cutting, Physical
-                Assembly
-              </p>
-              <p>
-                <b>Design & Modelling</b>: Fusion360 and Design Sketches
-              </p>
-            </div>
-            <p className="font-light text-sm text-center">
-              a portable tool for counter staff to quickly identify overweight
-              and oversized handcarry baggages
-            </p>
-            <Link href="https://dai.sutd.edu.sg/dai-projects/cabin-baggage-detector/">
-              <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
-                See Video
+        <section className="min-h-screen">
+          <motion.section
+            initial={{ y: 0, opacity: 0 }}
+            animate={{ y: 10, opacity: 1 }}
+            transition={{
+              ease: "linear",
+              type: "spring",
+              stiffness: 50,
+              duration: 2,
+            }}
+            className="flex justify-center items-center space-x-10 mt-10 flex-wrap mb-10 flex-row"
+          >
+            <div className="flex justify-center items-center flex-row w-[50rem]">
+              <button>
+                <ArrowBackIos
+                  className="text-yves-blue"
+                  fontSize="large"
+                  onClick={toggleLeft1}
+                />
               </button>
-            </Link>
-          </div>
-        </motion.section>
 
-        <motion.section
-          initial={{ y: 0, opacity: 0 }}
-          animate={{ y: 10, opacity: 1 }}
-          transition={{
-            ease: "linear",
-            type: "spring",
-            stiffness: 50,
-            duration: 2,
-          }}
-          className="flex justify-center items-center space-x-10 mt-20 flex-wrap mb-10 flex-row"
-        >
-          <div className=" w-[20rem] h-[20rem] space-x-2 flex flex-col items-center justify-center">
-            <h1 className="font-bold text-xl text-yves-blue text-center">
-              Generative Design for Prosthetic Legs
-            </h1>
-            <p>
-              <u>My Contributions</u>
-            </p>
-            <div className="flex flex-col space-x-1">
+              <div className=" flex-nowrap ml-5 mr-5 overflow-x-hidden  flex flex-row">
+                <div
+                  className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-5 "
+                  id="row1"
+                >
+                  <div className="min-w-[20rem] h-[20rem] bg-dnatapres bg-cover bg-no-repeat bg-center"></div>
+                  <div className="min-w-[17rem] h-[20rem] bg-pds12 bg-cover bg-no-repeat bg-center"></div>
+                  <div className="min-w-[14rem] h-[20rem] bg-pds13 bg-cover bg-no-repeat bg-left"></div>
+                  <div className="min-w-[32rem] h-[20rem] bg-pds10 bg-contain bg-no-repeat bg-center"></div>
+                  <div className="min-w-[27rem] h-[20rem] bg-pds11 bg-cover bg-no-repeat bg-center"></div>{" "}
+                  <div className="min-w-[40rem] h-[20rem] bg-pds8 bg-contain bg-no-repeat bg-center"></div>
+                  <div className="min-w-[40rem] h-[20rem] bg-pds6 bg-contain bg-no-repeat bg-center"></div>
+                  <div className="min-w-[30rem] h-[20rem] bg-pds7 bg-contain bg-no-repeat bg-center"></div>
+                  <div className="min-w-[24rem] h-[20rem] bg-pds5 bg-contain bg-no-repeat bg-center"></div>
+                  <div className="min-w-[75rem] h-[20rem] bg-pds3 bg-contain bg-no-repeat bg-center"></div>
+                  <div className="min-w-[43rem] h-[20rem] bg-pds1 bg-contain bg-no-repeat bg-center "></div>
+                  <div className="min-w-[30rem] h-[20rem] bg-pds2 bg-contain bg-no-repeat bg-center"></div>
+                  <div className="min-w-[20rem] h-[20rem] bg-pds4 bg-contain bg-no-repeat bg-center"></div>
+                  <div className="min-w-[24rem] h-[20rem] bg-pds9 bg-contain bg-no-repeat bg-center"></div>
+                </div>
+              </div>
+              <button>
+                <ArrowForwardIos
+                  className="text-yves-blue"
+                  fontSize="large"
+                  onClick={toggleRight1}
+                />
+              </button>
+            </div>
+            <div className=" w-[20rem] h-[20rem] space-x-2 flex flex-col items-center justify-center">
+              <h1 className="font-bold text-xl text-yves-blue">
+                Handcarry Baggage Checker
+              </h1>
+              <h1 className="font-light text-sm"> Partnered with Dnata</h1>
               <p>
-                <b>Generative Design</b>: F360 Generative Design
+                <u>My Contributions</u>
+              </p>
+              <div className="flex flex-col space-x-1">
+                <p>
+                  <b>Fabrication</b>: 3D Printing, Laser Cutting, Physical
+                  Assembly
+                </p>
+                <p>
+                  <b>Design & Modelling</b>: Fusion360 and Design Sketches
+                </p>
+              </div>
+              <p className="font-light text-sm text-center">
+                a portable tool for counter staff to quickly identify overweight
+                and oversized handcarry baggages
+              </p>
+              <Link href="https://dai.sutd.edu.sg/dai-projects/cabin-baggage-detector/">
+                <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
+                  See Video
+                </button>
+              </Link>
+            </div>
+          </motion.section>
+
+          <motion.section
+            initial={{ y: 0, opacity: 0 }}
+            animate={{ y: 10, opacity: 1 }}
+            transition={{
+              ease: "linear",
+              type: "spring",
+              stiffness: 50,
+              duration: 2,
+            }}
+            className="flex justify-center items-center space-x-10 mt-20 flex-wrap mb-10 flex-row"
+          >
+            <div className=" w-[20rem] h-[20rem] space-x-2 flex flex-col items-center justify-center">
+              <h1 className="font-bold text-xl text-yves-blue text-center">
+                Generative Design for Prosthetic Legs
+              </h1>
+              <p>
+                <u>My Contributions</u>
+              </p>
+              <div className="flex flex-col space-x-1">
+                <p>
+                  <b>Generative Design</b>: F360 Generative Design
+                </p>
+              </div>
+              <p className="font-light text-sm text-center">
+                Applied physics and research knowledge through setting of
+                structural loads, as well as influencing design outcomes using
+                starting shapes, preserved geometry and obstacle geometry.
               </p>
             </div>
-            <p className="font-light text-sm text-center">
-              Applied physics and research knowledge through setting of
-              structural loads, as well as influencing design outcomes using
-              starting shapes, preserved geometry and obstacle geometry.
-            </p>
-          </div>
-          <div className="flex justify-center items-center flex-row w-[50rem]">
-            <button>
-              <ArrowBackIos
-                className="text-yves-blue"
-                fontSize="large"
-                onClick={toggleLeft2}
-              />
-            </button>
+            <div className="flex justify-center items-center flex-row w-[50rem]">
+              <button>
+                <ArrowBackIos
+                  className="text-yves-blue"
+                  fontSize="large"
+                  onClick={toggleLeft2}
+                />
+              </button>
 
-            <div className=" flex-nowrap ml-5 mr-5 overflow-x-hidden flex flex-row">
-              <div
-                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10  "
-                id="row2"
-              >
-                <div className="min-w-[18rem] h-[20rem] bg-aiapp1 bg-cover bg-no-repeat bg-center "></div>
-                <div className="min-w-[21rem] h-[20rem] bg-aiapp2 bg-cover bg-no-repeat bg-center "></div>
-                <div className="min-w-[25rem] h-[20rem] bg-aiapp3 bg-cover bg-no-repeat bg-center "></div>
+              <div className=" flex-nowrap ml-5 mr-5 overflow-x-hidden flex flex-row">
+                <div
+                  className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10  "
+                  id="row2"
+                >
+                  <div className="min-w-[18rem] h-[20rem] bg-aiapp1 bg-cover bg-no-repeat bg-center "></div>
+                  <div className="min-w-[21rem] h-[20rem] bg-aiapp2 bg-cover bg-no-repeat bg-center "></div>
+                  <div className="min-w-[25rem] h-[20rem] bg-aiapp3 bg-cover bg-no-repeat bg-center "></div>
+                </div>
               </div>
+              <button>
+                <ArrowForwardIos
+                  className="text-yves-blue"
+                  fontSize="large"
+                  onClick={toggleRight2}
+                />
+              </button>
             </div>
-            <button>
-              <ArrowForwardIos
-                className="text-yves-blue"
-                fontSize="large"
-                onClick={toggleRight2}
-              />
-            </button>
-          </div>
-        </motion.section>
+          </motion.section>
 
-        <section className="flex justify-center items-center space-x-10 mt-20 flex-wrap mb-10 flex-row">
-          <div className="flex justify-center items-center flex-row w-[50rem]">
-            <button>
-              <ArrowBackIos
-                className="text-yves-blue"
-                fontSize="large"
-                onClick={toggleLeft3}
-              />
-            </button>
+          <section className="flex justify-center items-center space-x-10 mt-20 flex-wrap mb-10 flex-row">
+            <div className="flex justify-center items-center flex-row w-[50rem]">
+              <button>
+                <ArrowBackIos
+                  className="text-yves-blue"
+                  fontSize="large"
+                  onClick={toggleLeft3}
+                />
+              </button>
 
-            <div className=" flex-nowrap ml-5 mr-5 overflow-x-hidden flex flex-row">
-              <div
-                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10  "
-                id="row3"
-              >
-                <div className="min-w-[20rem] h-[20rem] bg-kueh1 bg-cover bg-no-repeat bg-center "></div>
-                <div className="min-w-[20rem] h-[20rem] bg-kueh3 bg-cover bg-no-repeat bg-center "></div>{" "}
-                <div className="min-w-[28rem] h-[20rem] bg-kueh2 bg-cover bg-no-repeat bg-center "></div>
-                {/* <div className="min-w-[20rem] h-[20rem] bg-rainbow1 bg-cover bg-no-repeat bg-center "></div> */}
-                <div className="min-w-[20rem] h-[20rem] bg-rainbow2 bg-cover bg-no-repeat bg-center "></div>
-                <div className="min-w-[20rem] h-[20rem] bg-rainbow3 bg-cover bg-no-repeat bg-center "></div>
+              <div className=" flex-nowrap ml-5 mr-5 overflow-x-hidden flex flex-row">
+                <div
+                  className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10  "
+                  id="row3"
+                >
+                  <div className="min-w-[20rem] h-[20rem] bg-kueh1 bg-cover bg-no-repeat bg-center "></div>
+                  <div className="min-w-[20rem] h-[20rem] bg-kueh3 bg-cover bg-no-repeat bg-center "></div>{" "}
+                  <div className="min-w-[28rem] h-[20rem] bg-kueh2 bg-cover bg-no-repeat bg-center "></div>
+                  {/* <div className="min-w-[20rem] h-[20rem] bg-rainbow1 bg-cover bg-no-repeat bg-center "></div> */}
+                  <div className="min-w-[20rem] h-[20rem] bg-rainbow2 bg-cover bg-no-repeat bg-center "></div>
+                  <div className="min-w-[20rem] h-[20rem] bg-rainbow3 bg-cover bg-no-repeat bg-center "></div>
+                </div>
               </div>
+              <button>
+                <ArrowForwardIos
+                  className="text-yves-blue"
+                  fontSize="large"
+                  onClick={toggleRight3}
+                />
+              </button>
             </div>
-            <button>
-              <ArrowForwardIos
-                className="text-yves-blue"
-                fontSize="large"
-                onClick={toggleRight3}
-              />
-            </button>
-          </div>
-          <div className=" w-[20rem] h-[20rem] space-x-2 flex flex-col items-center justify-center">
-            <h1 className="font-bold text-xl text-yves-blue text-center">
-              Kueh Lapis Keyboard Caps
-            </h1>
-            <h1 className="font-light text-sm"> Personal Small Business</h1>
-            {/* <p>
+            <div className=" w-[20rem] h-[20rem] space-x-2 flex flex-col items-center justify-center">
+              <h1 className="font-bold text-xl text-yves-blue text-center">
+                Kueh Lapis Keyboard Caps
+              </h1>
+              <h1 className="font-light text-sm"> Personal Small Business</h1>
+              {/* <p>
               <u>My Contributions</u>
             </p> */}
-            <div className="flex flex-col space-x-1">
-              <p>
-                <b>Store</b>: Grapefoot Studio
+              <div className="flex flex-col space-x-1">
+                <p>
+                  <b>Store</b>: Grapefoot Studio
+                </p>
+                <p>
+                  <b>Materials</b>: Epoxy Resin
+                </p>
+              </div>
+              <p className="font-light text-center text-sm">
+                inspired by one of my favourite childhood snacks: the local
+                traditional, kueh lapis sagu
               </p>
-              <p>
-                <b>Materials</b>: Epoxy Resin
-              </p>
+              <Link href="https://www.instagram.com/grapefoot.studio/">
+                <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
+                  Visit Grapefoot Studio
+                </button>
+              </Link>
             </div>
-            <p className="font-light text-center text-sm">
-              inspired by one of my favourite childhood snacks: the local
-              traditional, kueh lapis sagu
-            </p>
-            <Link href="https://www.instagram.com/grapefoot.studio/">
-              <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
-                Visit Grapefoot Studio
-              </button>
-            </Link>
-          </div>
-        </section>
+          </section>
 
-        <section className="flex justify-center items-center space-x-10 mt-20 flex-wrap mb-10 flex-row">
-          <div className=" w-[20rem] h-[20rem] space-x-2 flex flex-col items-center justify-center">
-            <h1 className="font-bold text-xl text-yves-blue text-center">
-              Bread Basket Keyboard Caps
-            </h1>
-            <h1 className="font-light text-sm"> Personal Small Business</h1>
-            {/* <p>
+          <section className="flex justify-center items-center space-x-10 mt-20 flex-wrap mb-10 flex-row">
+            <div className=" w-[20rem] h-[20rem] space-x-2 flex flex-col items-center justify-center">
+              <h1 className="font-bold text-xl text-yves-blue text-center">
+                Bread Basket Keyboard Caps
+              </h1>
+              <h1 className="font-light text-sm"> Personal Small Business</h1>
+              {/* <p>
               <u>My Contributions</u>
             </p> */}
-            <div className="flex flex-col space-x-1">
-              <p>
-                <b>Store</b>: valubahloo
+              <div className="flex flex-col space-x-1">
+                <p>
+                  <b>Store</b>: valubahloo
+                </p>
+                <p>
+                  <b>Materials</b>: Polymer Clay, PBT Blanks, Acrylic, UV Resin
+                </p>
+              </div>
+              <p className="font-light text-center text-sm">
+                earlier keycap work with polymer clay and paint. sold on
+                CannonKeys, Daily Clack and Desk Hero.
               </p>
-              <p>
-                <b>Materials</b>: Polymer Clay, PBT Blanks, Acrylic, UV Resin
-              </p>
+              <Link href="https://www.instagram.com/valubahloo/">
+                <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
+                  Visit valubahloo
+                </button>
+              </Link>
             </div>
-            <p className="font-light text-center text-sm">
-              earlier keycap work with polymer clay and paint. sold on
-              CannonKeys, Daily Clack and Desk Hero.
-            </p>
-            <Link href="https://www.instagram.com/valubahloo/">
-              <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
-                Visit valubahloo
+            <div className="flex justify-center items-center flex-row w-[50rem]">
+              <button>
+                <ArrowBackIos
+                  className="text-yves-blue"
+                  fontSize="large"
+                  onClick={toggleLeft4}
+                />
               </button>
-            </Link>
-          </div>
-          <div className="flex justify-center items-center flex-row w-[50rem]">
-            <button>
-              <ArrowBackIos
-                className="text-yves-blue"
-                fontSize="large"
-                onClick={toggleLeft4}
-              />
-            </button>
 
-            <div className=" flex-nowrap ml-5 mr-5 overflow-x-hidden flex flex-row">
-              <div
-                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10"
-                id="row4"
-              >
-                <div className="min-w-[28rem] h-[20rem] bg-bread4 bg-contain bg-no-repeat bg-center "></div>
-                <div className="min-w-[16rem] h-[20rem] bg-bread1 bg-contain bg-no-repeat bg-top "></div>
-                <div className="min-w-[16rem] h-[20rem] bg-bread2 bg-contain bg-no-repeat bg-top"></div>{" "}
-                <div className="min-w-[16rem] h-[20rem] bg-bread3 bg-contain bg-no-repeat bg-top "></div>
+              <div className=" flex-nowrap ml-5 mr-5 overflow-x-hidden flex flex-row">
+                <div
+                  className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10"
+                  id="row4"
+                >
+                  <div className="min-w-[28rem] h-[20rem] bg-bread4 bg-contain bg-no-repeat bg-center "></div>
+                  <div className="min-w-[16rem] h-[20rem] bg-bread1 bg-contain bg-no-repeat bg-top "></div>
+                  <div className="min-w-[16rem] h-[20rem] bg-bread2 bg-contain bg-no-repeat bg-top"></div>{" "}
+                  <div className="min-w-[16rem] h-[20rem] bg-bread3 bg-contain bg-no-repeat bg-top "></div>
+                </div>
               </div>
+              <button>
+                <ArrowForwardIos
+                  className="text-yves-blue"
+                  fontSize="large"
+                  onClick={toggleRight4}
+                />
+              </button>
             </div>
-            <button>
-              <ArrowForwardIos
-                className="text-yves-blue"
-                fontSize="large"
-                onClick={toggleRight4}
-              />
-            </button>
-          </div>
-        </section>
-        <section className="flex justify-center items-center space-x-10 mt-20 flex-wrap mb-10 flex-row">
-          <div className="flex justify-center items-center flex-row w-[50rem]">
-            <button>
-              <ArrowBackIos
-                className="text-yves-blue"
-                fontSize="large"
-                onClick={toggleLeft5}
-              />
-            </button>
+          </section>
+          <section className="flex justify-center items-center space-x-10 mt-20 flex-wrap mb-10 flex-row">
+            <div className="flex justify-center items-center flex-row w-[50rem]">
+              <button>
+                <ArrowBackIos
+                  className="text-yves-blue"
+                  fontSize="large"
+                  onClick={toggleLeft5}
+                />
+              </button>
 
-            <div className=" flex-nowrap ml-5 mr-5 overflow-x-hidden  flex flex-row">
-              <div
-                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10  "
-                id="row5"
-              >
-                <div className="min-w-[20rem] h-[20rem] bg-fruit1 bg-cover bg-no-repeat bg-center "></div>
-                <div className="min-w-[20rem] h-[20rem] bg-fruit3 bg-cover bg-no-repeat bg-center "></div>{" "}
-                <div className="min-w-[20rem] h-[20rem] bg-fruit2 bg-cover bg-no-repeat bg-center "></div>{" "}
+              <div className=" flex-nowrap ml-5 mr-5 overflow-x-hidden  flex flex-row">
+                <div
+                  className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10  "
+                  id="row5"
+                >
+                  <div className="min-w-[20rem] h-[20rem] bg-fruit1 bg-cover bg-no-repeat bg-center "></div>
+                  <div className="min-w-[20rem] h-[20rem] bg-fruit3 bg-cover bg-no-repeat bg-center "></div>{" "}
+                  <div className="min-w-[20rem] h-[20rem] bg-fruit2 bg-cover bg-no-repeat bg-center "></div>{" "}
+                </div>
               </div>
+              <button>
+                <ArrowForwardIos
+                  className="text-yves-blue"
+                  fontSize="large"
+                  onClick={toggleRight5}
+                />
+              </button>
             </div>
-            <button>
-              <ArrowForwardIos
-                className="text-yves-blue"
-                fontSize="large"
-                onClick={toggleRight5}
-              />
-            </button>
-          </div>
-          <div className=" w-[20rem] h-[20rem] space-x-2 flex flex-col items-center justify-center">
-            <h1 className="font-bold text-xl text-yves-blue text-center">
-              Fruit Polymer Clay Jewellery
-            </h1>
-            <h1 className="font-light text-sm"> Personal Small Business</h1>
-            {/* <p>
+            <div className=" w-[20rem] h-[20rem] space-x-2 flex flex-col items-center justify-center">
+              <h1 className="font-bold text-xl text-yves-blue text-center">
+                Fruit Polymer Clay Jewellery
+              </h1>
+              <h1 className="font-light text-sm"> Personal Small Business</h1>
+              {/* <p>
               <u>My Contributions</u>
             </p> */}
-            <div className="flex flex-col space-x-1">
-              <p>
-                <b>Store</b>: valubahloo
+              <div className="flex flex-col space-x-1">
+                <p>
+                  <b>Store</b>: valubahloo
+                </p>
+                <p>
+                  <b>Materials</b>: Polymer Clay, Acrylic, UV Resin
+                </p>
+              </div>
+              <p className="font-light text-center text-sm">
+                inspired by one of my favourite childhood snacks: the local
+                traditional, kueh lapis sagu
               </p>
-              <p>
-                <b>Materials</b>: Polymer Clay, Acrylic, UV Resin
-              </p>
+              <Link href="https://www.instagram.com/grapefoot.studio/">
+                <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
+                  Visit valubahloo
+                </button>
+              </Link>
             </div>
-            <p className="font-light text-center text-sm">
-              inspired by one of my favourite childhood snacks: the local
-              traditional, kueh lapis sagu
-            </p>
-            <Link href="https://www.instagram.com/grapefoot.studio/">
-              <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
-                Visit valubahloo
-              </button>
-            </Link>
-          </div>
-        </section>
+          </section>
 
-        <section className="flex justify-center items-center space-x-10 mt-20 flex-wrap mb-10 flex-row">
-          <div className=" w-[20rem] h-[20rem] space-x-2 flex flex-col items-center justify-center">
-            <h1 className="font-bold text-xl text-yves-blue text-center">
-              Polymer Clay Keyboard Caps
-            </h1>
-            <h1 className="font-light text-sm"> Personal Small Business</h1>
-            {/* <p>
+          <section className="flex justify-center items-center space-x-10 mt-20 flex-wrap mb-10 flex-row">
+            <div className=" w-[20rem] h-[20rem] space-x-2 flex flex-col items-center justify-center">
+              <h1 className="font-bold text-xl text-yves-blue text-center">
+                Polymer Clay Keyboard Caps
+              </h1>
+              <h1 className="font-light text-sm"> Personal Small Business</h1>
+              {/* <p>
               <u>My Contributions</u>
             </p> */}
-            <div className="flex flex-col space-x-1">
-              <p>
-                <b>Store</b>: valubahloo
-              </p>
-              <p>
-                <b>Materials</b>: Polymer Clay, PBT Blanks, Acrylic, UV Resin
-              </p>
-            </div>
-            <p className="font-light text-center text-sm">
-              Earlier keycap work with polymer clay and paint. Sold on
-              CannonKeys, Daily Clack and Desk Hero.
-            </p>
-            <Link href="https://www.instagram.com/valubahloo/">
-              <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
-                Visit valubahloo
-              </button>
-            </Link>
-          </div>
-          <div className="flex justify-center items-center flex-row w-[50rem]">
-            <button>
-              <ArrowBackIos
-                className="text-yves-blue"
-                fontSize="large"
-                onClick={toggleLeft6}
-              />
-            </button>
-
-            <div className=" flex-nowrap ml-5 mr-5 overflow-x-hidden  flex flex-row">
-              <div
-                className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10  "
-                id="row6"
-              >
-                {" "}
-                <div className="min-w-[30rem] h-[20rem] bg-kc4 bg-contain bg-no-repeat bg-center "></div>
-                <div className="min-w-[20rem] h-[20rem] bg-kc3 bg-contain bg-no-repeat bg-center "></div>
-                <div className="min-w-[22rem] h-[20rem] bg-kc1 bg-contain bg-no-repeat bg-center "></div>
-                <div className="min-w-[20rem] h-[20rem] bg-kc2 bg-contain bg-no-repeat bg-center "></div>
-                <div className="min-w-[20rem] h-[20rem] bg-kc5 bg-contain bg-no-repeat bg-center "></div>
-                <div className="min-w-[22rem] h-[20rem] bg-kc6 bg-contain bg-no-repeat bg-center "></div>
+              <div className="flex flex-col space-x-1">
+                <p>
+                  <b>Store</b>: valubahloo
+                </p>
+                <p>
+                  <b>Materials</b>: Polymer Clay, PBT Blanks, Acrylic, UV Resin
+                </p>
               </div>
+              <p className="font-light text-center text-sm">
+                Earlier keycap work with polymer clay and paint. Sold on
+                CannonKeys, Daily Clack and Desk Hero.
+              </p>
+              <Link href="https://www.instagram.com/valubahloo/">
+                <button className="text-yves-blue text-base hover:underline decoration-my-yellow decoration-2">
+                  Visit valubahloo
+                </button>
+              </Link>
             </div>
-            <button>
-              <ArrowForwardIos
-                className="text-yves-blue"
-                fontSize="large"
-                onClick={toggleRight6}
-              />
-            </button>
-          </div>
+            <div className="flex justify-center items-center flex-row w-[50rem]">
+              <button>
+                <ArrowBackIos
+                  className="text-yves-blue"
+                  fontSize="large"
+                  onClick={toggleLeft6}
+                />
+              </button>
+
+              <div className=" flex-nowrap ml-5 mr-5 overflow-x-hidden  flex flex-row">
+                <div
+                  className="flex flex-nowrap justify-start flex-row items-center overflow-x-hidden whitespace-nowrap space-x-10  "
+                  id="row6"
+                >
+                  {" "}
+                  <div className="min-w-[30rem] h-[20rem] bg-kc4 bg-contain bg-no-repeat bg-center "></div>
+                  <div className="min-w-[20rem] h-[20rem] bg-kc3 bg-contain bg-no-repeat bg-center "></div>
+                  <div className="min-w-[22rem] h-[20rem] bg-kc1 bg-contain bg-no-repeat bg-center "></div>
+                  <div className="min-w-[20rem] h-[20rem] bg-kc2 bg-contain bg-no-repeat bg-center "></div>
+                  <div className="min-w-[20rem] h-[20rem] bg-kc5 bg-contain bg-no-repeat bg-center "></div>
+                  <div className="min-w-[22rem] h-[20rem] bg-kc6 bg-contain bg-no-repeat bg-center "></div>
+                </div>
+              </div>
+              <button>
+                <ArrowForwardIos
+                  className="text-yves-blue"
+                  fontSize="large"
+                  onClick={toggleRight6}
+                />
+              </button>
+            </div>
+          </section>
         </section>
         <Footer />
       </body>

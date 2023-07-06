@@ -36,75 +36,75 @@ export default function Home() {
           outerScale={2}
           clickables={["a", ".link"]}
         />
+        <section className="min-h-[90vh] flex-col flex items-center justify-center">
+          <section className=" mt-5 ml-5 mr-5 flex flex-col space-x-2 w-full justify-center items-center">
+            <h1 className="text-yves-blue font-light text-3xl">
+              hello, stranger
+            </h1>
+            <p className=" text-yves-blue text-2xl">
+              i'm valu, aspiring creative developer and illustrator.
+            </p>
+          </section>
 
-        <section className=" mt-5 ml-5 mr-5 flex flex-col space-x-2 w-full justify-center items-center">
-          <h1 className="text-yves-blue font-light text-3xl">
-            hello, stranger
-          </h1>
-          <p className=" text-yves-blue text-2xl">
-            i'm valu, aspiring creative developer and illustrator.
-          </p>
-        </section>
-
-        <motion.section
-          initial={{ y: 0, opacity: 0 }}
-          animate={{ y: 10, opacity: 1 }}
-          transition={{
-            ease: "linear",
-            type: "spring",
-            stiffness: 50,
-            duration: 2,
-          }}
-          className="flex mt-10 mb-10 space-x-5 flex-wrap flex-row justify-center"
-        >
-          <div className="  w-[20rem] h-[28rem] cursor-pointer group perspective ">
-            <div className="relative preserve-3d group-focus:my-rotate-y-180 group-hover:my-rotate-y-180 w-full h-full delay-500 ease-in-out duration-[2000ms] ">
-              {/* <div className={styles.groupflipcard}>
+          <motion.section
+            initial={{ y: 0, opacity: 0 }}
+            animate={{ y: 10, opacity: 1 }}
+            transition={{
+              ease: "linear",
+              type: "spring",
+              stiffness: 50,
+              duration: 2,
+            }}
+            className="flex mt-10 mb-5 space-x-5 flex-wrap flex-row justify-center"
+          >
+            <div className="  w-[20rem] h-[28rem] cursor-pointer group perspective ">
+              <div className="relative preserve-3d group-focus:my-rotate-y-180 group-hover:my-rotate-y-180 w-full h-full delay-500 ease-in-out duration-[2000ms] ">
+                {/* <div className={styles.groupflipcard}>
               <div className={styles.flipcardface}> */}
-              <div className=" flex-col  items-center justify-center flex shadow-lg absolute w-full h-full backface-hidden bg-slate-200 text-black rounded-2xl">
-                <div className="flex justify-center w-[18rem] h-[24rem] rounded-xl bg-magician bg-no-repeat bg-cover"></div>
-                <div className=" flex mt-3 justify-center items-center h-6 w-full rounded-xl">
-                  <h1 className="text-yves-blue font-medium  ">
-                    WEB DEVELOPMENT
-                  </h1>
+                <div className=" flex-col  items-center justify-center flex shadow-lg absolute w-full h-full backface-hidden bg-slate-200 text-black rounded-2xl">
+                  <div className="flex justify-center w-[18rem] h-[24rem] rounded-xl bg-magician bg-no-repeat bg-cover"></div>
+                  <div className=" flex mt-3 justify-center items-center h-6 w-full rounded-xl">
+                    <h1 className="text-yves-blue font-medium  ">
+                      WEB DEVELOPMENT
+                    </h1>
+                  </div>
                 </div>
-              </div>
-              <div className=" items-center justify-center flex shadow-lg absolute my-rotate-y-180 backface-hidden w-full h-full bg-slate-200 rounded-2xl">
-                <div className="w-[18rem] h-[26rem] flex-col justify-center items-center text-base flex rounded-xl text-black bg-yves-blue overflow-hidden">
-                  <div className=" flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
-                    <p className="text-white ">HTML</p>{" "}
-                    <p className="text-my-yellow font-bold">•</p>
-                    <p className="text-white ">CSS</p>
-                    <p className="text-my-yellow font-bold">•</p>
-                    <p className="text-white ">JAVASCRIPT</p>
-                  </div>
-                  <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
-                    <p className="text-white ">REACTJS</p>
-                    <p className="text-my-yellow font-bold">•</p>
-                    <p className="text-white ">NEXTJS</p>
-                  </div>
-                  <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
-                    <p className="text-white ">UI/UX</p>
-                    <p className="text-my-yellow font-bold">•</p>
-                    <p className="text-white ">FIGMA</p>
-                  </div>
-                  <div className=" text-my-yellow flex flex-row flex-wrap justify-center items-center">
-                    <p className="text-xs w-16 text-center">CLICK ME FOR</p>
-                    <Link href="/portfolio/digital">
-                      <div className="mt-2 flex justify-center items-center w-[6rem] h-[6rem]">
-                        <Image
-                          src={eye}
-                          className=" mr-2  hover:scale-125"
-                          width={50}
-                          height={50}
-                        ></Image>
-                      </div>
-                    </Link>
-                    <p className="text-xs w-16  text-center">
-                      WEB/APP PROJECTS
-                    </p>
-                  </div>
-                  {/* <Link href="/portfolio/digital">
+                <div className=" items-center justify-center flex shadow-lg absolute my-rotate-y-180 backface-hidden w-full h-full bg-slate-200 rounded-2xl">
+                  <div className="w-[18rem] h-[26rem] flex-col justify-center items-center text-base flex rounded-xl text-black bg-yves-blue overflow-hidden">
+                    <div className=" flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
+                      <p className="text-white ">HTML</p>{" "}
+                      <p className="text-my-yellow font-bold">•</p>
+                      <p className="text-white ">CSS</p>
+                      <p className="text-my-yellow font-bold">•</p>
+                      <p className="text-white ">JAVASCRIPT</p>
+                    </div>
+                    <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
+                      <p className="text-white ">REACTJS</p>
+                      <p className="text-my-yellow font-bold">•</p>
+                      <p className="text-white ">NEXTJS</p>
+                    </div>
+                    <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
+                      <p className="text-white ">UI/UX</p>
+                      <p className="text-my-yellow font-bold">•</p>
+                      <p className="text-white ">FIGMA</p>
+                    </div>
+                    <div className=" text-my-yellow flex flex-row flex-wrap justify-center items-center">
+                      <p className="text-xs w-16 text-center">CLICK ME FOR</p>
+                      <Link href="/portfolio/digital">
+                        <div className="mt-2 flex justify-center items-center w-[6rem] h-[6rem]">
+                          <Image
+                            src={eye}
+                            className=" mr-2  hover:scale-125"
+                            width={50}
+                            height={50}
+                          ></Image>
+                        </div>
+                      </Link>
+                      <p className="text-xs w-16  text-center">
+                        WEB/APP PROJECTS
+                      </p>
+                    </div>
+                    {/* <Link href="/portfolio/digital">
                     <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
                       <Image
                         src={eye}
@@ -114,54 +114,55 @@ export default function Home() {
                       ></Image>
                     </div>
                   </Link> */}
-                  <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
-                    <p className="text-white ">AGILE</p>
-                    <p className="text-my-yellow font-bold">•</p>
-                    <p className="text-white ">TDD</p>
-                  </div>
-                  <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-5">
-                    <p className="text-white ">MACHINE LEARNING</p>
-                  </div>
-                  <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
-                    <p className="text-white ">TAILWIND</p>
-                    <p className="text-my-yellow font-bold">•</p>
-                    <p className="text-white ">BOOTSTRAP</p>
+                    <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
+                      <p className="text-white ">AGILE</p>
+                      <p className="text-my-yellow font-bold">•</p>
+                      <p className="text-white ">TDD</p>
+                    </div>
+                    <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-5">
+                      <p className="text-white ">MACHINE LEARNING</p>
+                    </div>
+                    <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
+                      <p className="text-white ">TAILWIND</p>
+                      <p className="text-my-yellow font-bold">•</p>
+                      <p className="text-white ">BOOTSTRAP</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="w-[20rem] h-[28rem]  cursor-pointer group perspective ">
-            <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full delay-500 ease-in-out duration-[2000ms]">
-              <div className=" flex-col items-center justify-center flex shadow-lg absolute w-full h-full backface-hidden bg-slate-200 text-black rounded-2xl">
-                <div className="flex justify-center w-[18rem] h-[24rem] rounded-xl bg-king bg-no-repeat bg-cover"></div>
-                <div className=" flex mt-3 justify-center items-center h-6 w-full rounded-xl">
-                  <h1 className="text-yves-blue  font-medium "> ABOUT ME</h1>
-                </div>
-              </div>
-              <div className=" items-center justify-center flex shadow-lg absolute my-rotate-y-180 backface-hidden w-full h-full bg-slate-200 rounded-2xl">
-                <div className="w-[18rem] h-[26rem] flex-col flex items-center justify-center rounded-xl text-white bg-yves-blue">
-                  <p className="m-4 text-center font-light text-base">
-                    hey, valu here! <br />i study
-                    <b className="text-my-yellow"> Design and AI </b>at{" "}
-                    <b>Singapore University of Technology and Design</b>. i love
-                    cats, Yves Klein blue (#002FA7) and doing martial arts!
-                  </p>
-                  <div className=" text-my-yellow flex flex-row flex-wrap justify-center items-center">
-                    <p className="text-xs w-16 text-center">CLICK ME FOR</p>
-                    <Link href="/about">
-                      <div className="mt-2 flex justify-center items-center w-[6rem] h-[6rem]">
-                        <Image
-                          src={eye}
-                          className=" mr-2  hover:scale-125"
-                          width={50}
-                          height={50}
-                        ></Image>
-                      </div>
-                    </Link>
-                    <p className="text-xs w-16  text-center">MORE ABOUT ME</p>
+            <div className="w-[20rem] h-[28rem]  cursor-pointer group perspective ">
+              <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full delay-500 ease-in-out duration-[2000ms]">
+                <div className=" flex-col items-center justify-center flex shadow-lg absolute w-full h-full backface-hidden bg-slate-200 text-black rounded-2xl">
+                  <div className="flex justify-center w-[18rem] h-[24rem] rounded-xl bg-king bg-no-repeat bg-cover"></div>
+                  <div className=" flex mt-3 justify-center items-center h-6 w-full rounded-xl">
+                    <h1 className="text-yves-blue  font-medium "> ABOUT ME</h1>
                   </div>
-                  {/* <Link href="/about">
+                </div>
+                <div className=" items-center justify-center flex shadow-lg absolute my-rotate-y-180 backface-hidden w-full h-full bg-slate-200 rounded-2xl">
+                  <div className="w-[18rem] h-[26rem] flex-col flex items-center justify-center rounded-xl text-white bg-yves-blue">
+                    <p className="m-4 text-center font-light text-base">
+                      hey, valu here! <br />i study
+                      <b className="text-my-yellow"> Design and AI </b>at{" "}
+                      <b>Singapore University of Technology and Design</b>. i
+                      love cats, Yves Klein blue (#002FA7) and doing martial
+                      arts!
+                    </p>
+                    <div className=" text-my-yellow flex flex-row flex-wrap justify-center items-center">
+                      <p className="text-xs w-16 text-center">CLICK ME FOR</p>
+                      <Link href="/about">
+                        <div className="mt-2 flex justify-center items-center w-[6rem] h-[6rem]">
+                          <Image
+                            src={eye}
+                            className=" mr-2  hover:scale-125"
+                            width={50}
+                            height={50}
+                          ></Image>
+                        </div>
+                      </Link>
+                      <p className="text-xs w-16  text-center">MORE ABOUT ME</p>
+                    </div>
+                    {/* <Link href="/about">
                     <div className="mt-2 bg-testcircle bg-no-repeat bg-center bg-cover flex justify-center items-center w-[8rem] h-[8rem]">
                       <Image
                         src={eye}
@@ -171,74 +172,76 @@ export default function Home() {
                       ></Image>
                     </div>
                   </Link> */}
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="w-[20rem] h-[28rem] cursor-pointer group perspective ">
-            <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full delay-500 ease-in-out duration-[2000ms] ">
-              <div className=" flex-col items-center justify-center flex shadow-lg absolute w-full h-full backface-hidden bg-slate-200 text-black rounded-2xl">
-                <div className="flex justify-center w-[18rem] h-[24rem] rounded-xl bg-artisan bg-no-repeat bg-cover"></div>
-                <div className=" flex mt-3 justify-center items-center h-6 w-full rounded-xl">
-                  <h1 className="text-yves-blue  font-medium ">
-                    {" "}
-                    PRODUCT DESIGN
-                  </h1>
-                </div>
-              </div>
-              <div className=" items-center justify-center flex shadow-lg absolute my-rotate-y-180 backface-hidden w-full h-full bg-slate-200 rounded-2xl">
-                <div className="w-[18rem] h-[26rem] flex-col flex items-center justify-center rounded-xl text-white text-base  bg-yves-blue">
-                  <div className=" flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
-                    <p className="text-white ">3D PRINTING</p>{" "}
-                    <p className="text-my-yellow font-bold">•</p>
-                    <p className="text-white ">LASER CUTTING</p>
-                  </div>
-
-                  <div className="flex flex-row  font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
-                    <p className="text-white ">RHINO</p>
-                    <p className="text-my-yellow font-bold">•</p>
-                    <p className="text-white ">F360</p>
-                  </div>
-                  <div className="flex flex-row  font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
-                    <p className="text-white ">SKETCHUP</p>
-                  </div>
-
-                  <div className=" text-my-yellow flex flex-row flex-wrap justify-center items-center">
-                    <p className="text-xs w-16 text-center">CLICK ME FOR</p>
-                    <Link href="/portfolio/product">
-                      <div className="mt-2 flex justify-center items-center w-[6rem] h-[6rem]">
-                        <Image
-                          src={eye}
-                          className=" mr-2  hover:scale-125"
-                          width={50}
-                          height={50}
-                        ></Image>
-                      </div>
-                    </Link>
-                    <p className="text-xs w-16  text-center">DESIGN PROJECTS</p>
-                  </div>
-
-                  <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
-                    <p className="text-white hover:underline decoration-my-yellow decoration-2 ">
-                      @VALUBAHLOO
-                    </p>
-                  </div>
-                  <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
-                    <p className="text-white hover:underline decoration-my-yellow decoration-2">
-                      @GRAPEFOOT STUDIO
-                    </p>
-                  </div>
-                  <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
-                    <p className="text-white ">EPOXY RESIN</p>
-                    <p className="text-my-yellow font-bold">•</p>
-                    <p className="text-white ">POLYMER CLAY</p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </motion.section>
+            <div className="w-[20rem] h-[28rem] cursor-pointer group perspective ">
+              <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full delay-500 ease-in-out duration-[2000ms] ">
+                <div className=" flex-col items-center justify-center flex shadow-lg absolute w-full h-full backface-hidden bg-slate-200 text-black rounded-2xl">
+                  <div className="flex justify-center w-[18rem] h-[24rem] rounded-xl bg-artisan bg-no-repeat bg-cover"></div>
+                  <div className=" flex mt-3 justify-center items-center h-6 w-full rounded-xl">
+                    <h1 className="text-yves-blue  font-medium ">
+                      {" "}
+                      PRODUCT DESIGN
+                    </h1>
+                  </div>
+                </div>
+                <div className=" items-center justify-center flex shadow-lg absolute my-rotate-y-180 backface-hidden w-full h-full bg-slate-200 rounded-2xl">
+                  <div className="w-[18rem] h-[26rem] flex-col flex items-center justify-center rounded-xl text-white text-base  bg-yves-blue">
+                    <div className=" flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
+                      <p className="text-white ">3D PRINTING</p>{" "}
+                      <p className="text-my-yellow font-bold">•</p>
+                      <p className="text-white ">LASER CUTTING</p>
+                    </div>
 
+                    <div className="flex flex-row  font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
+                      <p className="text-white ">RHINO</p>
+                      <p className="text-my-yellow font-bold">•</p>
+                      <p className="text-white ">F360</p>
+                    </div>
+                    <div className="flex flex-row  font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
+                      <p className="text-white ">SKETCHUP</p>
+                    </div>
+
+                    <div className=" text-my-yellow flex flex-row flex-wrap justify-center items-center">
+                      <p className="text-xs w-16 text-center">CLICK ME FOR</p>
+                      <Link href="/portfolio/product">
+                        <div className="mt-2 flex justify-center items-center w-[6rem] h-[6rem]">
+                          <Image
+                            src={eye}
+                            className=" mr-2  hover:scale-125"
+                            width={50}
+                            height={50}
+                          ></Image>
+                        </div>
+                      </Link>
+                      <p className="text-xs w-16  text-center">
+                        DESIGN PROJECTS
+                      </p>
+                    </div>
+
+                    <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
+                      <p className="text-white hover:underline decoration-my-yellow decoration-2 ">
+                        @VALUBAHLOO
+                      </p>
+                    </div>
+                    <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
+                      <p className="text-white hover:underline decoration-my-yellow decoration-2">
+                        @GRAPEFOOT STUDIO
+                      </p>
+                    </div>
+                    <div className="flex flex-row font-medium justify-center ml-2 mr-2 mt-2 space-x-2">
+                      <p className="text-white ">EPOXY RESIN</p>
+                      <p className="text-my-yellow font-bold">•</p>
+                      <p className="text-white ">POLYMER CLAY</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.section>
+        </section>
         <Footer></Footer>
       </body>
     </>
